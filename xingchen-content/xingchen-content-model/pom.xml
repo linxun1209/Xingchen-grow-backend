@@ -7,7 +7,11 @@
         <artifactId>xingchen-content</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
+
     <artifactId>xingchen-content-model</artifactId>
+
+
     <dependencies>
         <dependency>
             <groupId>com.xingchen</groupId>
@@ -40,5 +44,11 @@
             <version>5.6.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
     </dependencies>
+
 </project>
