@@ -6,13 +6,32 @@ server:
 spring:
   application:
     name: content-api
-
-
-
-# swagger 文档配置
-swagger:
-  title: "星辰成长内容管理系统"
-  description: "内容系统管理系统对课程相关信息进行业务管理数据"
-  base-package: com.xingchen.content.api
-  enabled: true
-  version: 1.0.0
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: Xingchen-grow-backend
+      config:
+        namespace: ${spring.profiles.active}
+        group: Xingchen-grow-backend
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: Xingchen-grow-backend
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xingchen-comment
+            refresh: true
+  #profiles默认为dev
+  profiles:
+    active: dev
+## swagger 文档配置
+#swagger:
+#  title: "星辰成长内容管理系统"
+#  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+#  base-package: com.xingchen.content.api
+#  enabled: true
+#  version: 1.0.0

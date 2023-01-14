@@ -6,6 +6,7 @@ import com.xingchen.content.model.PageParams;
 import com.xingchen.content.model.PageResult;
 import com.xingchen.content.model.dto.AddCourseDto;
 import com.xingchen.content.model.dto.CourseBaseInfoDto;
+import com.xingchen.content.model.dto.EditCourseDto;
 import com.xingchen.content.model.dto.QueryCourseParamsDto;
 import com.xingchen.content.model.po.CourseBase;
 
@@ -36,5 +37,33 @@ public interface CourseBaseInfoService extends IService<CourseBase> {
      * @return 课程信息包括基本信息、营销信息
      */
     public CourseBaseInfoDto createCourseBase(Long companyId,AddCourseDto addCourseDto);
+
+    /**
+     * @description 修改课程信息
+     * @param companyId  机构id，要校验本机构只能修改本机构的课程
+     * @param dto  课程信息
+     * @return com.xuecheng.content.model.dto.CourseBaseInfoDto
+     * @author Mr.M
+     * @date 2022/9/8 21:04
+     */
+    public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto);
+
+    /**
+     * @description 根据id查询课程信息
+     * @param courseId 课程id
+     * @return com.xuecheng.content.model.dto.CourseBaseInfoDto
+     * @author Mr.M
+     * @date 2022/10/10 10:58
+     */
+
+
+    /**
+     * @description 根据id查询课程信息
+     * @param courseId 课程id
+     * @return com.xuecheng.content.model.dto.CourseBaseInfoDto
+     * @author Mr.M
+     * @date 2022/10/10 10:58
+     */
+    public CourseBaseInfoDto getCourseBaseInfo(Long courseId);
 }
 

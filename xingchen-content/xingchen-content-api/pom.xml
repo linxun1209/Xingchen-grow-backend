@@ -3,44 +3,54 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>xingchen-system</artifactId>
         <groupId>com.xingchen</groupId>
+        <artifactId>xingchen-content</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>xingchen-system-service</artifactId>
-    <name>xingchen-system-service</name>
-    <description>xingchen-system-service</description>
+    <artifactId>xingchen-content-api</artifactId>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
+
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
         <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.xingchen</groupId>
-            <artifactId>xingchen-system-model</artifactId>
+            <artifactId>xingchen-content-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
-        <!-- MySQL 驱动 -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <groupId>com.xingchen</groupId>
+            <artifactId>xingchen-content-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
-        <!-- mybatis plus的依赖 -->
+        <!--cloud的基础环境包-->
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
         </dependency>
-        <!-- Spring Boot 集成 Junit -->
+        <!-- Spring Boot 的 Spring Web MVC 集成 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+
         <!-- 排除 Spring Boot 依赖的日志包冲突 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -52,26 +62,19 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!-- Spring Boot 集成 log4j2 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
+            <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
+
+
+        <!-- Spring Boot 集成 swagger -->
         <dependency>
-            <groupId>com.xingchen</groupId>
-            <artifactId>xingchen-content-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.xingchen</groupId>
-            <artifactId>xingchen-content-model</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>test</scope>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.9.0.RELEASE</version>
         </dependency>
 
 
     </dependencies>
-
 </project>

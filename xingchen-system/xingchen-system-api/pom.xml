@@ -12,6 +12,17 @@
     <description>xingchen-system-api</description>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.xingchen</groupId>
             <artifactId>xingchen-system-model</artifactId>
@@ -41,7 +52,7 @@
         <!-- Spring Boot 对 LocalDateTime
           boot-starter-web自动引入
           -->
-        <!-- <dependency>
+        <dependency>
              <groupId>com.fasterxml.jackson.module</groupId>
              <artifactId>jackson-module-parameter-names</artifactId>
          </dependency>
@@ -52,12 +63,12 @@
          <dependency>
              <groupId>com.fasterxml.jackson.datatype</groupId>
              <artifactId>jackson-datatype-jsr310</artifactId>
-         </dependency>-->
+         </dependency>
 
-        <!--<dependency>
+        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
-        </dependency>-->
+        </dependency>
         <!-- 排除 Spring Boot 依赖的日志包冲突 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

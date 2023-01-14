@@ -7,15 +7,14 @@ import com.xingchen.content.model.PageParams;
 import com.xingchen.content.model.PageResult;
 import com.xingchen.content.model.dto.AddCourseDto;
 import com.xingchen.content.model.dto.CourseBaseInfoDto;
+import com.xingchen.content.model.dto.EditCourseDto;
 import com.xingchen.content.model.dto.QueryCourseParamsDto;
 import com.xingchen.content.model.po.CourseBase;
 import com.xingchen.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -27,7 +26,6 @@ import javax.annotation.Resource;
  */
 @Api(value = "课程管理接口",tags = "课程管理接口")
 @RestController
-
 public class CourseBaseInfoController {
 
     @Resource
@@ -54,4 +52,27 @@ public class CourseBaseInfoController {
         return courseBase;
     }
 
+
+    @GetMapping("/course/{courseId}")
+    public CourseBaseInfoDto getCourseBaseById(@PathVariable Long courseId){
+
+
+        return courseBaseInfoService.getCourseBaseInfo(courseId);
+    }
+
+    @PutMapping("/course")
+    public CourseBaseInfoDto modifyCourseBase(@RequestBody EditCourseDto dto){
+
+        Long companyId =1232141425L;
+        return courseBaseInfoService.updateCourseBase(companyId,dto);
+    }
+
+//    测试分级校验用
+    @PostMapping("/course2")
+    public CourseBaseInfoDto createCourseBase2(@RequestBody @Validated(ValidationGroups.Update.class) AddCourseDto addCourseDto) {
+
+        Long companyId = 22L;
+        return courseBaseInfoService.createCourseBase(companyId, addCourseDto);
+//    }
+    }
 }

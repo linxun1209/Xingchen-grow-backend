@@ -18,13 +18,7 @@
     </modules>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>com.xingchen</groupId>
-            <artifactId>xingchen-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+
 
 
 
