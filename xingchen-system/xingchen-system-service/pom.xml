@@ -3,16 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+        <artifactId>xingchen-system</artifactId>
         <groupId>com.xingchen</groupId>
-        <artifactId>xingchen-content</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>xingchen-content-service</artifactId>
+    <artifactId>xingchen-system-service</artifactId>
+    <name>xingchen-system-service</name>
+    <description>xingchen-system-service</description>
 
     <dependencies>
         <dependency>
             <groupId>com.xingchen</groupId>
-            <artifactId>xingchen-content-model</artifactId>
+            <artifactId>xingchen-system-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
@@ -51,6 +53,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
+
 
     </dependencies>
 
