@@ -8,10 +8,11 @@ import org.springframework.web.filter.CorsFilter;
 
 /**
  * @author xing'chen
- * @description TODO
+ * @description 全局跨域
  * @date 2022/10/8 11:04
  * @version 1.0
  */
+
  @Configuration
 public class GlobalCorsConfig {
 

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
+import com.xingchen.base.exception.xingchenPlusException;
 import com.xingchen.content.model.PageParams;
 import com.xingchen.content.model.PageResult;
 import com.xingchen.content.model.dto.AddCourseDto;
@@ -46,6 +47,8 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
     @Autowired
     CourseCategoryMapper courseCategoryMapper;
 
+    @Autowired
+    CourseMarketServiceImpl courseMarketService;
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams params, QueryCourseParamsDto queryCourseParamsDto) {
@@ -57,7 +60,7 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
         queryWrapper.like(StringUtils.isNotEmpty(queryCourseParamsDto.getCourseName()),CourseBase::getName,queryCourseParamsDto.getCourseName());
 
         //根据课程审核状态
-        queryWrapper.eq(StringUtils.isNotEmpty(queryCourseParamsDto.getAuditStatus()),CourseBase::getAuditStatus,queryCourseParamsDto.getAuditStatus());
+        queryWrapper.eq(StringUtils.isNotEmpty(queryCourseParamsDto.getAuditStatus()),CourseBase::getAuditStatus,202004);
 
         //根据课程发布状态
         queryWrapper.eq(StringUtils.isNotEmpty(queryCourseParamsDto.getPublishStatus()),CourseBase::getAuditStatus,queryCourseParamsDto.getPublishStatus());
@@ -87,33 +90,33 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto) {
         //对参数进行合法性的校验
         //合法性校验
-        if (StringUtils.isBlank(dto.getName())) {
-            throw new RuntimeException("课程名称为空");
-        }
-
-        if (StringUtils.isBlank(dto.getMt())) {
-            throw new RuntimeException("课程分类为空");
-        }
-
-        if (StringUtils.isBlank(dto.getSt())) {
-            throw new RuntimeException("课程分类为空");
-        }
-
-        if (StringUtils.isBlank(dto.getGrade())) {
-            throw new RuntimeException("课程等级为空");
-        }
-
-        if (StringUtils.isBlank(dto.getTeachmode())) {
-            throw new RuntimeException("教育模式为空");
-        }
-
-        if (StringUtils.isBlank(dto.getUsers())) {
-            throw new RuntimeException("适应人群为空");
-        }
-
-        if (StringUtils.isBlank(dto.getCharge())) {
-            throw new RuntimeException("收费规则为空");
-        }
+//        if (StringUtils.isBlank(dto.getName())) {
+//            throw new xingchenPlusException("课程名称为空");
+//        }
+//
+//        if (StringUtils.isBlank(dto.getMt())) {
+//            throw new xingchenPlusException("课程分类为空");
+//        }
+//
+//        if (StringUtils.isBlank(dto.getSt())) {
+//            throw new xingchenPlusException("课程分类为空");
+//        }
+//
+//        if (StringUtils.isBlank(dto.getGrade())) {
+//            throw new xingchenPlusException("课程等级为空");
+//        }
+//
+//        if (StringUtils.isBlank(dto.getTeachmode())) {
+//            throw new xingchenPlusException("教育模式为空");
+//        }
+//
+//        if (StringUtils.isBlank(dto.getUsers())) {
+//            throw new xingchenPlusException("适应人群为空");
+//        }
+//
+//        if (StringUtils.isBlank(dto.getCharge())) {
+//            throw new xingchenPlusException("收费规则为空");
+//        }
         //对数据进行封装，调用mapper进行数据持久化
         CourseBase courseBase = new CourseBase();
         //将传入dto的数据设置到 courseBase对象
@@ -138,24 +141,52 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
         //将dto中和courseMarket属性名一样的属性值拷贝到courseMarket
         BeanUtils.copyProperties(dto,courseMarket);
         courseMarket.setId(courseId);
-        //校验如果课程为收费，价格必须输入
-        String charge = dto.getCharge();
-        if(charge.equals("201001")){//收费
-            if(courseMarket.getPrice() == null || courseMarket.getPrice().floatValue()<=0){
-                throw new RuntimeException("课程为收费但是价格为空");
-            }
-        }
+//        //校验如果课程为收费，价格必须输入
+//        String charge = dto.getCharge();
+//        if(charge.equals("201001")){//收费
+//            if(courseMarket.getPrice() == null || courseMarket.getPrice().floatValue()<=0){
+//                throw new xingchenPlusException("课程为收费但是价格为空");
+//            }
+//        }
 
-        //向课程营销表插入一条记录
-        int insert1 = courseMarketMapper.insert(courseMarket);
+//        //向课程营销表插入一条记录
+//        int insert1 = courseMarketMapper.insert(courseMarket);
 
-        if(insert<=0|| insert1<=0){
-            throw new RuntimeException("添加课程失败");
+//        if(insert<=0|| insert1<=0){
+//            throw new xingchenPlusException("添加课程失败");
+//        }
+        int insert1 = this.saveCourseMarket(courseMarket);
+        if(insert<1 || insert1<1){
+            log.error("创建课程过程中出错:{}",dto);
+            throw new RuntimeException("创建课程过程中出错");
         }
 
         //组装要返回的结果
         CourseBaseInfoDto courseBaseInfo = getCourseBaseInfo(courseId);
         return courseBaseInfo;
+    }
+
+    //抽取对营销的保存
+    private int saveCourseMarket(CourseMarket courseMarket){
+
+
+        String charge = courseMarket.getCharge();
+        if(StringUtils.isBlank(charge)){
+            xingchenPlusException.cast("收费规则没有选择");
+        }
+        if(charge.equals("201001")){
+            if(courseMarket.getPrice()==null || courseMarket.getPrice().floatValue()<=0){
+//                throw new RuntimeException("课程为收费价格不能为空且必须大于0");
+                xingchenPlusException.cast("课程为收费价格不能为空且必须大于0");
+
+            }
+        }
+
+        //保存
+        boolean b = courseMarketService.saveOrUpdate(courseMarket);
+
+        return b?1:0;
+
     }
 
     /**

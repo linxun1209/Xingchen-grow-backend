@@ -20,7 +20,6 @@ import java.util.List;
  */
 @Slf4j
 @RestController
-@RequestMapping("dictionary")
 public class DictionaryController {
 
     @Autowired
