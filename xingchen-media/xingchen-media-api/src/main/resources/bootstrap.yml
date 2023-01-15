@@ -1,25 +1,26 @@
+#微服务配置
 spring:
   application:
-    name: content-api
+    name: media-api
   cloud:
     nacos:
       server-addr: localhost:8848
       discovery:
         namespace: dev
-        group: Xingchen-grow-backend
+        group: Xingchen-grow-backedn
       config:
-        namespace: ${spring.profiles.active}
-        group: Xingchen-grow-backend
+        namespace: dev148
+        group: Xingchen-grow-backedn
         file-extension: yaml
         refresh-enabled: true
         extension-configs:
-          - data-id: content-service-${spring.profiles.active}.yaml
-            group: Xingchen-grow-backend
+          - data-id: media-service-${spring.profiles.active}.yaml
+            group: Xingchen-grow-backedn
             refresh: true
         shared-configs:
           - data-id: swagger-${spring.profiles.active}.yaml
-            group: xingchen-comment
+            group: xingchen-common
             refresh: true
-  #profiles默认为dev
   profiles:
     active: dev
+

@@ -19,7 +19,7 @@ public class MediaCodeGenerator {
 	private static final String SERVICE_NAME = "media";
 
 	private static final String DATA_SOURCE_USER_NAME  = "root";
-	private static final String DATA_SOURCE_PASSWORD  = "mysql";
+	private static final String DATA_SOURCE_PASSWORD  = "419520";
 	private static final String[] TABLE_NAMES = new String[]{
 			"media_files",
 			"media_process",
@@ -41,8 +41,8 @@ public class MediaCodeGenerator {
 		// 全局配置
 		GlobalConfig gc = new GlobalConfig();
 		gc.setFileOverride(true);
-		gc.setOutputDir(System.getProperty("user.dir") + "/xuecheng-plus-generator/src/main/java");
-		gc.setAuthor("itcast");
+		gc.setOutputDir(System.getProperty("user.dir") + "/xingchen-generator/src/main/java");
+		gc.setAuthor("xingchen");
 		gc.setOpen(false);
 		gc.setSwagger2(false);
 		gc.setServiceName("%sService");
@@ -58,7 +58,7 @@ public class MediaCodeGenerator {
 		// 数据库配置
 		DataSourceConfig dsc = new DataSourceConfig();
 		dsc.setDbType(DbType.MYSQL);
-		dsc.setUrl("jdbc:mysql://192.168.101.65:3306/xcplus_media"
+		dsc.setUrl("jdbc:mysql://localhost:3306/xcplus_media"
 				+ "?useUnicode=true&useSSL=false&characterEncoding=utf8");
 		dsc.setDriverName("com.mysql.cj.jdbc.Driver");
 		dsc.setUsername(DATA_SOURCE_USER_NAME);
@@ -68,7 +68,7 @@ public class MediaCodeGenerator {
 		// 包配置
 		PackageConfig pc = new PackageConfig();
 		pc.setModuleName(SERVICE_NAME);
-		pc.setParent("com.xuecheng");
+		pc.setParent("com.xingchen");
 
 		pc.setServiceImpl("service.impl");
 		pc.setXml("mapper");

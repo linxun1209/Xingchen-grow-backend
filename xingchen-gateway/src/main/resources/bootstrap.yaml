@@ -1,18 +1,18 @@
+#微服务配置
 spring:
   application:
-    name: content-service
+    name: xingchen-gateway
   cloud:
     nacos:
       server-addr: localhost:8848
       discovery:
-        namespace: ${spring.profiles.active}
+        namespace: dev
         group: Xingchen-grow-backend
       config:
-        namespace: ${spring.profiles.active}
+        namespace: dev
         group: Xingchen-grow-backend
         file-extension: yaml
         refresh-enabled: true
-
-  #profiles默认为dev
-  profiles:
+        shared-configs:
+ profiles:
     active: dev

@@ -12,24 +12,6 @@ import org.springframework.context.annotation.Bean;
 @EnableSwagger2Doc
 @SpringBootApplication
 public class ContentApplication {
-    @Value("${test_config.a}")
-    String a;
-    @Value("${test_config.b}")
-    String b;
-    @Value("${test_config.c}")
-    String c;
-    @Value("${test_config.d}")
-    String d;
-
-    @Bean
-    public Integer getTest(){
-        System.out.println("a="+a);
-        System.out.println("b="+b);
-        System.out.println("c="+c);
-        System.out.println("d="+d);
-        return new Integer(1);
-    }
-
 
     public static void main(String[] args) {
         SpringApplication.run(ContentApplication.class, args);
