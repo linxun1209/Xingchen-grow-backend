@@ -7,20 +7,20 @@ spring:
       server-addr: localhost:8848
       discovery:
         namespace: dev
-        group: Xingchen-grow-backedn
+        group: Xingchen-grow-backend
       config:
-        namespace: dev148
-        group: Xingchen-grow-backedn
+        namespace: ${spring.profiles.active}
+        group: Xingchen-grow-backend
         file-extension: yaml
         refresh-enabled: true
         extension-configs:
           - data-id: media-service-${spring.profiles.active}.yaml
-            group: Xingchen-grow-backedn
+            group: Xingchen-grow-backend
             refresh: true
         shared-configs:
           - data-id: swagger-${spring.profiles.active}.yaml
-            group: xingchen-common
+            group: xingchen-comment
             refresh: true
+  #profiles默认为dev
   profiles:
     active: dev
-

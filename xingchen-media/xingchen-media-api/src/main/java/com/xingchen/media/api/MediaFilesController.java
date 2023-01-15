@@ -1,4 +1,4 @@
-package com.xingchen.meida.api;
+package com.xingchen.media.api;
 
 import com.xingchen.base.exception.xingchenPlusException;
 import com.xingchen.base.model.RestResponse;
@@ -11,10 +11,11 @@ import com.xingchen.media.po.MediaFiles;
 import com.xingchen.media.service.MediaFileService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
+import javax.annotation.Resource;
 
 /**
  * <p>
@@ -28,7 +29,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class MediaFilesController {
 
 
-    @Autowired
+    @Resource
     MediaFileService mediaFileService;
 
 

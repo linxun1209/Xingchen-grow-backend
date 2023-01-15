@@ -3,7 +3,7 @@
 <mapper namespace="com.xingchen.media.mapper.MqMessageHistoryMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.xingchen.media.model.po.MqMessageHistory">
+    <resultMap id="BaseResultMap" type="com.xingchen.media.po.MqMessageHistory">
         <id column="id" property="id" />
         <result column="message_type" property="messageType" />
         <result column="business_key1" property="businessKey1" />

@@ -1,13 +1,13 @@
-package com.xingchen.meida;
+package com.xingchen.media;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MeidaApplication {
+public class MediaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MeidaApplication.class, args);
+        SpringApplication.run(MediaApplication.class, args);
     }
 
 }
