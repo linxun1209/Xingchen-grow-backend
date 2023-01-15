@@ -3,7 +3,7 @@
 <mapper namespace="com.xingchen.media.mapper.MediaProcessMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.xingchen.media.model.po.MediaProcess">
+    <resultMap id="BaseResultMap" type="com.xingchen.media.po.MediaProcess">
         <id column="id" property="id" />
         <result column="file_id" property="fileId" />
         <result column="filename" property="filename" />

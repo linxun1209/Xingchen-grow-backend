@@ -1,21 +1,20 @@
 package com.xingchen.meida.api;
 
 import com.xingchen.base.exception.xingchenPlusException;
+import com.xingchen.base.model.RestResponse;
 import com.xingchen.content.model.PageParams;
 import com.xingchen.content.model.PageResult;
 import com.xingchen.media.dto.QueryMediaParamsDto;
 import com.xingchen.media.dto.UploadFileParamsDto;
 import com.xingchen.media.dto.UploadFileResultDto;
 import com.xingchen.media.po.MediaFiles;
-import com.xingchen.media.service.MediaFilesService;
+import com.xingchen.media.service.MediaFileService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-
-import javax.annotation.Resource;
 
 /**
  * <p>
@@ -29,13 +28,14 @@ import javax.annotation.Resource;
 public class MediaFilesController {
 
 
-    @Resource
-    MediaFilesService mediaFileService;
+    @Autowired
+    MediaFileService mediaFileService;
 
 
     @ApiOperation("媒资列表查询接口")
     @PostMapping("/files")
     public PageResult<MediaFiles> list(PageParams pageParams, @RequestBody QueryMediaParamsDto queryMediaParamsDto) {
+
         Long companyId = 1232141425L;
         return mediaFileService.queryMediaFiels(companyId, pageParams, queryMediaParamsDto);
 
@@ -45,6 +45,7 @@ public class MediaFilesController {
     public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
                                       @RequestParam(value = "folder",required=false) String folder,
                                       @RequestParam(value= "objectName",required=false) String objectName) {
+
 
         Long companyId = 1232141425L;
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
@@ -67,6 +68,16 @@ public class MediaFilesController {
 
         return uploadFileResultDto;
 
+    }
+
+    @ApiOperation("预览文件")
+    @GetMapping("/preview/{mediaId}")
+    public RestResponse<String> getPlayUrlByMediaId(@PathVariable String mediaId){
+
+        //调用service查询文件的url
+
+        MediaFiles mediaFiles = mediaFileService.getFileById(mediaId);
+        return RestResponse.success(mediaFiles.getUrl());
     }
 
 }
