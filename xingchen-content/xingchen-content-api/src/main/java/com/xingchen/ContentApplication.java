@@ -13,6 +13,14 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class ContentApplication {
 
+    @Value("${server.port}")
+    String a;
+
+    @Bean
+    public String getTest(){
+        System.out.println("a"+a);
+        return a;
+    }
     public static void main(String[] args) {
         SpringApplication.run(ContentApplication.class, args);
     }
