@@ -21,9 +21,9 @@ import com.xingchen.content.service.TeachplanService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -37,22 +37,22 @@ import java.util.List;
 @Service
 public class CoursePublishPreServiceImpl extends ServiceImpl<CoursePublishPreMapper, CoursePublishPre> implements CoursePublishPreService {
 
-    @Autowired
+    @Resource
     CourseBaseInfoService courseBaseInfoService;
 
-    @Autowired
+    @Resource
     TeachplanService teachplanService;
 
-    @Autowired
+    @Resource
     CourseBaseMapper courseBaseMapper;
 
-    @Autowired
+    @Resource
     CourseMarketMapper courseMarketMapper;
 
-    @Autowired
+    @Resource
     CoursePublishPreMapper coursePublishPreMapper;
 
-    @Autowired
+    @Resource
     CoursePublishMapper coursePublishMapper;
 
 

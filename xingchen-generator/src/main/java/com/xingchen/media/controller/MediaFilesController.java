@@ -6,7 +6,7 @@ import com.xingchen.media.service.MediaFilesService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Resource;
 
 /**
  * <p>
@@ -20,6 +20,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 @RequestMapping("mediaFiles")
 public class MediaFilesController {
 
-    @Autowired
+    @Resource
     private MediaFilesService  mediaFilesService;
 }

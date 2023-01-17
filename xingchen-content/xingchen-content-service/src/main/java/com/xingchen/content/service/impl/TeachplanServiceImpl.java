@@ -2,7 +2,6 @@ package com.xingchen.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-
 import com.xingchen.base.exception.xingchenPlusException;
 import com.xingchen.content.mapper.TeachplanMediaMapper;
 import com.xingchen.content.model.dto.BindTeachplanMediaDto;
@@ -14,10 +13,10 @@ import com.xingchen.content.model.po.TeachplanMedia;
 import com.xingchen.content.service.TeachplanService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -31,10 +30,10 @@ import java.util.List;
 @Slf4j
 @Service
 public class TeachplanServiceImpl extends ServiceImpl<TeachplanMapper, Teachplan> implements TeachplanService {
-    @Autowired
+    @Resource
     TeachplanMapper teachplanMapper;
 
-    @Autowired
+    @Resource
     TeachplanMediaMapper teachplanMediaMapper;
 
     @Override

@@ -26,7 +26,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
@@ -48,13 +48,13 @@ import java.util.List;
 @Service
 public class MediaFileServiceImpl implements MediaFileService {
 
-    @Autowired
+    @Resource
     MediaFilesMapper mediaFilesMapper;
 
-    @Autowired
+    @Resource
     MediaProcessMapper mediaProcessMapper;
 
-    @Autowired
+    @Resource
     MinioClient minioClient;
 
     //普通文件存储的桶
@@ -64,7 +64,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     @Value("${minio.bucket.videofiles}")
     private String bucket_videofiles;
 
-    @Autowired
+    @Resource
     MediaFileService currentProxy;
 
     @Override

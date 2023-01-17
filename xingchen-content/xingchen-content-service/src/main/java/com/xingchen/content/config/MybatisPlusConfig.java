@@ -18,7 +18,10 @@ import org.springframework.context.annotation.Configuration;
 public class MybatisPlusConfig {
 
 
-  //定义分页的拦截器
+ /**
+  * 定义分页的拦截器
+  * @return
+  */
  @Bean
   public MybatisPlusInterceptor getMybatisPlusInterceptor(){
   MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();

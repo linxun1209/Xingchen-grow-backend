@@ -4,7 +4,6 @@ package com.xingchen.content.api;
 import com.xingchen.content.model.dto.CoursePreviewDto;
 import com.xingchen.content.service.CoursePublishService;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,16 +11,18 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.Resource;
+
 /**
- * @author Mr.M
+ * @author xing'chen
  * @version 1.0
- * @description TODO
+ * @description 课程预览，发布
  * @date 2022/10/17 10:47
  */
 @Controller
 public class CoursePublishController {
 
-    @Autowired
+    @Resource
     CoursePublishService coursePublishService;
 
 

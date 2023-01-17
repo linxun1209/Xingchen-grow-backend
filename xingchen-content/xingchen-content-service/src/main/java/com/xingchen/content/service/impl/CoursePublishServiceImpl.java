@@ -2,10 +2,14 @@ package com.xingchen.content.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-
 import com.xingchen.base.exception.xingchenPlusException;
+import com.xingchen.content.config.MultipartSupportConfig;
+import com.xingchen.content.feignclient.MediaServiceClient;
+import com.xingchen.content.feignclient.SearchServiceClient;
+import com.xingchen.content.feignclient.model.CourseIndex;
 import com.xingchen.content.mapper.CourseBaseMapper;
 import com.xingchen.content.mapper.CourseMarketMapper;
+import com.xingchen.content.mapper.CoursePublishMapper;
 import com.xingchen.content.mapper.CoursePublishPreMapper;
 import com.xingchen.content.model.dto.CourseBaseInfoDto;
 import com.xingchen.content.model.dto.CoursePreviewDto;
@@ -13,18 +17,30 @@ import com.xingchen.content.model.dto.TeachplanDto;
 import com.xingchen.content.model.po.CourseBase;
 import com.xingchen.content.model.po.CourseMarket;
 import com.xingchen.content.model.po.CoursePublish;
-import com.xingchen.content.mapper.CoursePublishMapper;
 import com.xingchen.content.model.po.CoursePublishPre;
 import com.xingchen.content.service.CourseBaseInfoService;
 import com.xingchen.content.service.CoursePublishService;
 import com.xingchen.content.service.TeachplanService;
+import com.xingchen.messagesdk.service.MqMessageService;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.annotation.Resource;
+import java.io.File;
+import java.io.FileOutputStream;
+
+import java.io.InputStream;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 
 /**
  * <p>
@@ -37,22 +53,32 @@ import java.util.List;
 @Service
 public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, CoursePublish> implements CoursePublishService {
 
-    @Autowired
+    @Resource
     CourseBaseInfoService courseBaseInfoService;
 
-    @Autowired
+    @Resource
     TeachplanService teachplanService;
 
-    @Autowired
+    @Resource
     CourseBaseMapper courseBaseMapper;
 
-    @Autowired
+    @Resource
     CourseMarketMapper courseMarketMapper;
 
-    @Autowired
+    @Resource
     CoursePublishPreMapper coursePublishPreMapper;
 
-    @Autowired
+
+    @Resource
+    MqMessageService mqMessageService;
+
+    @Resource
+    SearchServiceClient searchServiceClient;
+
+    @Resource
+    MediaServiceClient mediaServiceClient;
+
+    @Resource
     CoursePublishMapper coursePublishMapper;
 
 
@@ -160,6 +186,9 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
 
     }
 
+    private void saveCoursePublishMessage(Long courseId) {
+    }
+
 
     //保存课程发布信息
     private void saveCoursePublish(Long courseId) {
@@ -170,7 +199,8 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
         CoursePublish coursePublish = new CoursePublish();
         //拷贝到课程发布对象
         BeanUtils.copyProperties(coursePublishPre,coursePublish);
-        coursePublish.setStatus("203002");//已发布
+        //已发布
+        coursePublish.setStatus("203002");
 
         CoursePublish coursePublishUpdate = coursePublishMapper.selectById(courseId);
         if(coursePublishUpdate == null){
@@ -180,13 +210,113 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
         }
         //更新课程基本表的发布状态
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
-        courseBase.setStatus("203002");//已发布
+        //已发布
+        courseBase.setStatus("203002");
         courseBaseMapper.updateById(courseBase);
     }
 
-    //保存消息表
-    private void saveCoursePublishMessage(Long courseId) {
+    @Override
+    public File generateCourseHtml(Long courseId) {
 
+        try {
+            //配置freemarker
+            Configuration configuration = new Configuration(Configuration.getVersion());
+
+            //加载模板
+            //选指定模板路径,classpath下templates下
+            //得到classpath路径
+            String classpath = this.getClass().getResource("/").getPath();
+            configuration.setDirectoryForTemplateLoading(new File(classpath + "/templates/"));
+            //设置字符编码
+            configuration.setDefaultEncoding("utf-8");
+
+            //指定模板文件名称
+            Template template = configuration.getTemplate("course_template.ftl");
+
+            //准备数据
+            CoursePreviewDto coursePreviewInfo = getCoursePreviewInfo(courseId);
+
+            Map<String, Object> map = new HashMap<>();
+            map.put("model", coursePreviewInfo);
+
+            //静态化
+            //参数1：模板，参数2：数据模型
+            String content = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
+            System.out.println(content);
+            //将静态化内容输出到文件中
+            InputStream inputStream = IOUtils.toInputStream(content);
+            //输出流
+            File course = File.createTempFile("course", ".html");
+            FileOutputStream outputStream = new FileOutputStream(course);
+            IOUtils.copy(inputStream, outputStream);
+            return course;
+        } catch (Exception e) {
+            log.debug("课程静态化异常:{}",e.getMessage(),e);
+        }
+        return null;
     }
+
+    @Override
+    public void uploadCourseHtml(Long courseId, File file) {
+        //将file
+        MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
+        //objectName 课程id.html
+        String objectName = courseId+".html";
+        //远程调用媒资管理服务上传文件
+        String course = mediaServiceClient.upload(multipartFile, "course", objectName);
+        if(course == null){
+            xingchenPlusException.cast("远程调用媒资服务上传文件失败");
+        }
+    }
+
+    @Override
+    public Boolean saveCourseIndex(Long courseId) {
+
+        //查询课程发布表的数据
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        //...异常处理
+        //组装数据
+        CourseIndex courseIndex = new CourseIndex();
+        BeanUtils.copyProperties(coursePublish,courseIndex);
+
+        //远程调用搜索服务创建索引
+        Boolean result = searchServiceClient.add(courseIndex);
+        if(!result){
+            xingchenPlusException.cast("创建课程索引失败");
+        }
+        return result;
+    }
+
+
+//    //保存课程发布信息
+//    private void saveCoursePublish(Long courseId) {
+//
+//        //课程发布信息来源于预发布表
+//        CoursePublishPre coursePublishPre = coursePublishPreMapper.selectById(courseId);
+//
+//        CoursePublish coursePublish = new CoursePublish();
+//        //拷贝到课程发布对象
+//        BeanUtils.copyProperties(coursePublishPre,coursePublish);
+//        coursePublish.setStatus("203002");//已发布
+//
+//        CoursePublish coursePublishUpdate = coursePublishMapper.selectById(courseId);
+//        if(coursePublishUpdate == null){
+//            coursePublishMapper.insert(coursePublish);
+//        }else{
+//            coursePublishMapper.updateById(coursePublish);
+//        }
+//        //更新课程基本表的发布状态
+//        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+//        courseBase.setStatus("203002");//已发布
+//        courseBaseMapper.updateById(courseBase);
+//    }
+//
+//    //保存消息表
+//    private void saveCoursePublishMessage(Long courseId) {
+//        MqMessage mqMessage = mqMessageService.addMessage("course_publish", String.valueOf(courseId), null, null);
+//        if(mqMessage == null){
+//            xingchenPlusException.cast("添加消息记录失败");
+//        }
+//    }
 
 }

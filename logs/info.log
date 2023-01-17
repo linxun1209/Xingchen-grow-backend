@@ -1,0 +1,82 @@
+2023-01-17 22:45:06,120 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-01-17 22:45:06,120 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-01-17 22:45:06,300 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-17 22:45:06,300 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-17 22:45:06,344 INFO [main][GenericScope.java:295] - BeanFactory id=32950d77-4a5d-39b1-a5dd-67e46057e883
+2023-01-17 22:45:06,344 INFO [main][GenericScope.java:295] - BeanFactory id=32950d77-4a5d-39b1-a5dd-67e46057e883
+2023-01-17 22:45:06,420 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-01-17 22:45:06,420 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-01-17 22:45:06,463 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-01-17 22:45:06,463 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-01-17 22:45:06,771 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2023-01-17 22:45:06,771 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2023-01-17 22:45:06,802 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.insert
+2023-01-17 22:45:06,802 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.insert
+2023-01-17 22:45:06,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.delete
+2023-01-17 22:45:06,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.delete
+2023-01-17 22:45:06,808 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.deleteByMap
+2023-01-17 22:45:06,808 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.deleteByMap
+2023-01-17 22:45:06,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.deleteById
+2023-01-17 22:45:06,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.deleteById
+2023-01-17 22:45:06,819 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2023-01-17 22:45:06,819 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2023-01-17 22:45:06,823 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.update
+2023-01-17 22:45:06,823 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.update
+2023-01-17 22:45:06,824 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.updateById
+2023-01-17 22:45:06,824 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.updateById
+2023-01-17 22:45:06,825 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectById
+2023-01-17 22:45:06,825 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectById
+2023-01-17 22:45:06,826 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2023-01-17 22:45:06,826 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2023-01-17 22:45:06,827 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectByMap
+2023-01-17 22:45:06,827 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectByMap
+2023-01-17 22:45:06,829 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectOne
+2023-01-17 22:45:06,829 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectOne
+2023-01-17 22:45:06,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectCount
+2023-01-17 22:45:06,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectCount
+2023-01-17 22:45:06,833 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectMaps
+2023-01-17 22:45:06,833 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectMaps
+2023-01-17 22:45:06,835 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2023-01-17 22:45:06,835 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2023-01-17 22:45:06,837 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectObjs
+2023-01-17 22:45:06,837 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectObjs
+2023-01-17 22:45:06,838 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectList
+2023-01-17 22:45:06,838 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectList
+2023-01-17 22:45:06,840 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectPage
+2023-01-17 22:45:06,840 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageMapper.selectPage
+2023-01-17 22:45:06,847 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.insert
+2023-01-17 22:45:06,847 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.insert
+2023-01-17 22:45:06,848 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.delete
+2023-01-17 22:45:06,848 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.delete
+2023-01-17 22:45:06,849 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2023-01-17 22:45:06,849 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2023-01-17 22:45:06,850 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2023-01-17 22:45:06,850 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2023-01-17 22:45:06,851 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-01-17 22:45:06,851 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-01-17 22:45:06,852 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.update
+2023-01-17 22:45:06,852 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.update
+2023-01-17 22:45:06,853 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2023-01-17 22:45:06,853 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2023-01-17 22:45:06,853 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2023-01-17 22:45:06,853 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2023-01-17 22:45:06,854 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-01-17 22:45:06,854 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-01-17 22:45:06,855 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2023-01-17 22:45:06,855 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2023-01-17 22:45:06,856 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2023-01-17 22:45:06,856 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2023-01-17 22:45:06,857 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2023-01-17 22:45:06,857 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2023-01-17 22:45:06,858 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2023-01-17 22:45:06,858 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2023-01-17 22:45:06,859 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-01-17 22:45:06,859 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-01-17 22:45:06,860 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2023-01-17 22:45:06,860 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2023-01-17 22:45:06,861 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2023-01-17 22:45:06,861 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2023-01-17 22:45:06,862 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2023-01-17 22:45:06,862 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xingchen.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2023-01-17 22:45:06,973 INFO [main][StartupInfoLogger.java:61] - Started MessagesdkApplication in 1.418 seconds (JVM running for 2.355)
+2023-01-17 22:45:06,973 INFO [main][StartupInfoLogger.java:61] - Started MessagesdkApplication in 1.418 seconds (JVM running for 2.355)

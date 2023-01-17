@@ -7,9 +7,9 @@ import com.xingchen.content.model.po.CourseCategory;
 import com.xingchen.content.mapper.CourseCategoryMapper;
 import com.xingchen.content.service.CourseCategoryService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -25,7 +25,7 @@ import java.util.List;
 @Service
 public class CourseCategoryServiceImpl extends ServiceImpl<CourseCategoryMapper, CourseCategory> implements CourseCategoryService {
 
-    @Autowired
+    @Resource
     CourseCategoryMapper courseCategoryMapper;
     @Override
 

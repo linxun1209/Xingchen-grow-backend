@@ -13,7 +13,7 @@ import ${package.Service}.${table.serviceName};
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Resource;
 
 /**
  * <p>
@@ -38,7 +38,7 @@ public class ${table.controllerName} extends ${superControllerClass} {
 public class ${table.controllerName} {
 </#if>
 
-    @Autowired
+    @Resource
     private ${table.serviceName}  ${table.serviceName?uncap_first};
 }
 </#if>

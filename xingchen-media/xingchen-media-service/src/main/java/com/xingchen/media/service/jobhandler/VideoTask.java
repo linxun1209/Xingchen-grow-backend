@@ -8,7 +8,7 @@ import com.xingchen.media.service.MediaFileService;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -29,10 +29,10 @@ import java.util.concurrent.TimeUnit;
 public class VideoTask {
 
 
-    @Autowired
+    @Resource
     MediaFileProcessService mediaFileProcessService;
 
-    @Autowired
+    @Resource
     MediaFileService mediaFileService;
 
     @Value("${videoprocess.ffmpegpath}")

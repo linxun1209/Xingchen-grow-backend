@@ -1059,10 +1059,10 @@ Java/**
 */
 public UploadFileResultDto uploadFile(Long companyId,UploadFileParamsDto uploadFileParamsDto,byte[] bytes,String folder,String objectName);
 实现方法如下：
-Java@Autowired
+Java@Resource
 MinioClient minioClient;
 
-@Autowired
+@Resource
 MediaFilesMapper mediaFilesMapper;
 
 //普通文件桶
@@ -1339,7 +1339,7 @@ public MediaFiles addMediaFilesToDb(Long companyId,String fileMd5,UploadFilePara
 我们发现在uploadFile方法中去调用addMediaFilesToDb方法不是通过代理对象去调用。
 如何解决呢？通过代理对象去调用addMediaFilesToDb方法即可解决。
 在MediaFileService的实现类中注入MediaFileService的代理对象，如下：
-Java@Autowired
+Java@Resource
 MediaFileService currentProxy;
 将addMediaFilesToDb方法提成接口。
 Java/**
@@ -1577,7 +1577,7 @@ import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.service.MediaFileService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -1591,7 +1591,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RestController
 public class BigFilesController {
 
-    @Autowired
+    @Resource
     MediaFileService mediaFileService;
 
 
@@ -2735,7 +2735,7 @@ import com.xuecheng.media.model.po.MediaProcessHistory;
 import com.xuecheng.media.service.MediaFileProcessService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Resource;
 import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -2753,13 +2753,13 @@ import java.util.List;
 @Service
 public class MediaFileProcessServiceImpl implements MediaFileProcessService {
 
- @Autowired
+ @Resource
  MediaFilesMapper mediaFilesMapper;
 
- @Autowired
+ @Resource
  MediaProcessMapper mediaProcessMapper;
 
- @Autowired
+ @Resource
  MediaProcessHistoryMapper mediaProcessHistoryMapper;
 
 
@@ -2872,7 +2872,7 @@ import com.xxl.job.core.handler.annotation.XxlJob;
 import io.minio.MinioClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -2894,10 +2894,10 @@ import java.util.concurrent.Executors;
 @Component
 public class VideoTask {
 
-    @Autowired
+    @Resource
     private MediaFileService mediaFileService;
 
-    @Autowired
+    @Resource
     private MediaFileProcessService mediaFileProcessService;
 
     //ffmpeg绝对路径
