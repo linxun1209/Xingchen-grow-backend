@@ -3,7 +3,9 @@ package com.xingchen.content.feignclient;
 
 import com.xingchen.content.feignclient.model.CourseIndex;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @description 搜索服务远程调用接口

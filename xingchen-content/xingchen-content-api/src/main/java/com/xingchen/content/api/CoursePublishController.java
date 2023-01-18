@@ -3,12 +3,11 @@ package com.xingchen.content.api;
 
 import com.xingchen.content.model.dto.CoursePreviewDto;
 import com.xingchen.content.service.CoursePublishService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
@@ -19,7 +18,9 @@ import javax.annotation.Resource;
  * @description 课程预览，发布
  * @date 2022/10/17 10:47
  */
-@Controller
+@Slf4j
+@Api(value = "课程发布相关接口",tags = "课程发布相关接口")
+@RestController
 public class CoursePublishController {
 
     @Resource
@@ -39,7 +40,10 @@ public class CoursePublishController {
         return modelAndView;
     }
 
-    //提交审核
+    /**
+     * 提交审核
+     * @param courseId
+     */
     @ResponseBody
     @PostMapping("/courseaudit/commit/{courseId}")
     public void commitAudit(@PathVariable("courseId") Long courseId) {

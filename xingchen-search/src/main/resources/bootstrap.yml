@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: search
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: Xingchen-grow-backend
+      config:
+        namespace: dev
+        group: Xingchen-grow-backend
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: Xingchen-grow-backend
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xingchen-comment
+            refresh: true
+
+  profiles:
+    active: dev

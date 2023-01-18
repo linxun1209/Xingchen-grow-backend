@@ -4,6 +4,7 @@ import com.xingchen.content.model.dto.CoursePreviewDto;
 import com.xingchen.content.service.CourseBaseInfoService;
 import com.xingchen.content.service.CoursePublishService;
 import io.swagger.annotations.Api;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * @author Mr.
+ * @author xing'chen
  * @version 1.0
  * @description TODO
  * @date 2022/10/17 11:19

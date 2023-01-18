@@ -1,7 +1,6 @@
 package com.xingchen.content.config;
 
-
-
+import feign.codec.Encoder;
 import feign.form.spring.SpringFormEncoder;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -17,15 +16,13 @@ import org.springframework.http.MediaType;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
-import feign.codec.Encoder;
-
 import javax.annotation.Resource;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.OutputStream;
 
 /**
- * @author Mr.M
+ * @author xing'chen
  * @version 1.0
  * @description TODO
  * @date 2022/10/15 22:13
@@ -36,14 +33,22 @@ public class MultipartSupportConfig {
     @Resource
     private ObjectFactory<HttpMessageConverters> messageConverters;
 
+    /**
+     * 注入相同类型的bean时优先使用
+     * @return
+     */
     @Bean
-    @Primary//注入相同类型的bean时优先使用
+    @Primary
     @Scope("prototype")
     public Encoder feignEncoder() {
         return new SpringFormEncoder(new SpringEncoder(messageConverters));
     }
 
-    //将file转为Multipart
+    /**
+     * 将file转为Multipart
+     * @param file
+     * @return
+     */
     public static MultipartFile getMultipartFile(File file) {
         FileItem item = new DiskFileItemFactory().createItem("file", MediaType.MULTIPART_FORM_DATA_VALUE, true, file.getName());
         try (FileInputStream inputStream = new FileInputStream(file);

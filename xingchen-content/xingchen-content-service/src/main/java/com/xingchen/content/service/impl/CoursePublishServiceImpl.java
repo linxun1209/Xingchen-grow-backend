@@ -3,6 +3,7 @@ package com.xingchen.content.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xingchen.base.exception.xingchenPlusException;
+
 import com.xingchen.content.config.MultipartSupportConfig;
 import com.xingchen.content.feignclient.MediaServiceClient;
 import com.xingchen.content.feignclient.SearchServiceClient;
@@ -256,6 +257,14 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
         return null;
     }
 
+    /**
+     * @param courseId
+     * @param file     静态化文件
+     * @return void
+     * @description 上传课程静态化页面
+     * @author Mr.M
+     * @date 2022/9/23 16:59
+     */
     @Override
     public void uploadCourseHtml(Long courseId, File file) {
         //将file
@@ -271,7 +280,6 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
 
     @Override
     public Boolean saveCourseIndex(Long courseId) {
-
         //查询课程发布表的数据
         CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
         //...异常处理

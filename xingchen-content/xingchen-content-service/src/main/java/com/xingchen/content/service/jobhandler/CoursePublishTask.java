@@ -25,10 +25,11 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
     @Resource
     CoursePublishService coursePublishService;
-//    /**
-//     * 课程发布消息类型
-//     */
-//    public static final String MESSAGE_TYPE = "course_publish";
+
+    /**
+     * 课程发布消息类型
+     */
+    public static final String MESSAGE_TYPE = "course_publish";
 
     /**
      * 课程发布任务执行入口，由xxl-job调度
@@ -64,7 +65,6 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
 
         //课程缓存
-//        saveCourseCache(mqMessage,courseId);
 
         //创建课程索引
         saveCourseIndex(mqMessage,courseId);
@@ -73,13 +73,21 @@ public class CoursePublishTask extends MessageProcessAbstract {
         return true;
     }
 
-    //课程静态化
+    /**
+     * 创建课程索引
+     * @param mqMessage
+     * @param courseId
+     */
     private void saveCourseIndex(MqMessage mqMessage,Long courseId){
         //任务id
         Long id = mqMessage.getId();
         //作消息幂等性处理
         //如果该阶段任务完成了不再处理直接返回
-        int stageTwo = this.getMqMessageService().getStageTwo(id);//第二阶段的状态
+
+        /**
+         *第二阶段的状态
+         */
+        int stageTwo = this.getMqMessageService().getStageTwo(id);
         if(stageTwo>0){
             log.debug("当前阶段是创建课程索引,已经完成不再处理,任务信息:{}",mqMessage);
             return ;
@@ -93,7 +101,12 @@ public class CoursePublishTask extends MessageProcessAbstract {
         //完成第二阶段的任务
         this.getMqMessageService().completedStageTwo(id);
     }
-    //课程静态化
+
+    /**
+     * 课程静态化
+     * @param mqMessage
+     * @param courseId
+     */
     private void generateCourseHtml(MqMessage mqMessage,Long courseId){
         //任务id
         Long id = mqMessage.getId();
