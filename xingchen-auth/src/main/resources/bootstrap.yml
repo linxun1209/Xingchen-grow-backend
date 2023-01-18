@@ -1,14 +1,19 @@
 spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xcplus_user?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 419520
   application:
-    name: search
+    name: auth-service
   cloud:
     nacos:
       server-addr: localhost:8848
       discovery:
-        namespace: dev
-        group: Xingchen-grow-backend
+        namespace: ${spring.profiles.active}
+        group: xingchen-comment
       config:
-        namespace: search-dev.yaml
+        namespace: ${spring.profiles.active}
         group: xingchen-comment
         file-extension: yaml
         refresh-enabled: true
@@ -21,11 +26,5 @@ spring:
     active: dev
 server:
   servlet:
-    context-path: /search
-  port: 63080
-
-elasticsearch:
-  hostlist: 110.40.211.224:9200 #多个结点中间用逗号分隔
-  course:
-    index: course-publish
-    source_fields: id,name,grade,mt,st,charge,pic,price,originalPrice,teachmode,validDays,createDate
+    context-path: /auth
+  port: 63070
