@@ -19,10 +19,14 @@ spring:
         shared-configs:
           - data-id: swagger-${spring.profiles.active}.yaml
             group: xingchen-comment
+            refresh: true
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: xingchen-comment
+            refresh: true
+          - data-id: freemarker-config-${spring.profiles.active}.yaml
+            group: xingchen-comment
+            refresh: true
 
-#          - data-id: freemarker-config-${spring.profiles.active}.yaml
-#              group: xingchen-comment
-#              refresh: true
   #profiles默认为dev
   profiles:
     active: dev
@@ -30,3 +34,15 @@ server:
   servlet:
     context-path: /content
   port: 63040
+xxl:
+  job:
+    admin:
+      addresses: http://localhost:8088/xxl-job-admin
+    executor:
+      appname: coursepublish-job
+      address:
+      ip:
+      port: 8999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token

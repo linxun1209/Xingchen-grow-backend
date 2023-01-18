@@ -3,10 +3,7 @@ package com.xingchen.content.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xingchen.base.exception.xingchenPlusException;
-import com.xingchen.content.config.MultipartSupportConfig;
-import com.xingchen.content.feignclient.MediaServiceClient;
-import com.xingchen.content.feignclient.SearchServiceClient;
-import com.xingchen.content.feignclient.model.CourseIndex;
+
 import com.xingchen.content.mapper.CourseBaseMapper;
 import com.xingchen.content.mapper.CourseMarketMapper;
 import com.xingchen.content.mapper.CoursePublishMapper;
@@ -72,11 +69,11 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
     @Resource
     MqMessageService mqMessageService;
 
-    @Resource
-    SearchServiceClient searchServiceClient;
-
-    @Resource
-    MediaServiceClient mediaServiceClient;
+//    @Resource
+//    SearchServiceClient searchServiceClient;
+//
+//    @Resource
+//    MediaServiceClient mediaServiceClient;
 
     @Resource
     CoursePublishMapper coursePublishMapper;
@@ -256,36 +253,54 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
         return null;
     }
 
+    /**
+     * @param courseId
+     * @param file     静态化文件
+     * @return void
+     * @description 上传课程静态化页面
+     * @author Mr.M
+     * @date 2022/9/23 16:59
+     */
     @Override
     public void uploadCourseHtml(Long courseId, File file) {
-        //将file
-        MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
-        //objectName 课程id.html
-        String objectName = courseId+".html";
-        //远程调用媒资管理服务上传文件
-        String course = mediaServiceClient.upload(multipartFile, "course", objectName);
-        if(course == null){
-            xingchenPlusException.cast("远程调用媒资服务上传文件失败");
-        }
+
     }
 
     @Override
     public Boolean saveCourseIndex(Long courseId) {
-
-        //查询课程发布表的数据
-        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
-        //...异常处理
-        //组装数据
-        CourseIndex courseIndex = new CourseIndex();
-        BeanUtils.copyProperties(coursePublish,courseIndex);
-
-        //远程调用搜索服务创建索引
-        Boolean result = searchServiceClient.add(courseIndex);
-        if(!result){
-            xingchenPlusException.cast("创建课程索引失败");
-        }
-        return result;
+        return null;
     }
+
+//    @Override
+//    public void uploadCourseHtml(Long courseId, File file) {
+//        //将file
+//        MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
+//        //objectName 课程id.html
+//        String objectName = courseId+".html";
+//        //远程调用媒资管理服务上传文件
+//        String course = mediaServiceClient.upload(multipartFile, "course", objectName);
+//        if(course == null){
+//            xingchenPlusException.cast("远程调用媒资服务上传文件失败");
+//        }
+//    }
+//
+//    @Override
+//    public Boolean saveCourseIndex(Long courseId) {
+//
+//        //查询课程发布表的数据
+//        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+//        //...异常处理
+//        //组装数据
+//        CourseIndex courseIndex = new CourseIndex();
+//        BeanUtils.copyProperties(coursePublish,courseIndex);
+//
+//        //远程调用搜索服务创建索引
+//        Boolean result = searchServiceClient.add(courseIndex);
+//        if(!result){
+//            xingchenPlusException.cast("创建课程索引失败");
+//        }
+//        return result;
+//    }
 
 
 //    //保存课程发布信息
