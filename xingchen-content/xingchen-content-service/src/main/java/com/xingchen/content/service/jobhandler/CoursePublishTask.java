@@ -25,10 +25,11 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
     @Resource
     CoursePublishService coursePublishService;
-//    /**
-//     * 课程发布消息类型
-//     */
-//    public static final String MESSAGE_TYPE = "course_publish";
+
+    /**
+     * 课程发布消息类型
+     */
+    public static final String MESSAGE_TYPE = "course_publish";
 
     /**
      * 课程发布任务执行入口，由xxl-job调度
