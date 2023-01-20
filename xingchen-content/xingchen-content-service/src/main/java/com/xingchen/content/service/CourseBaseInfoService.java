@@ -22,13 +22,12 @@ public interface CourseBaseInfoService extends IService<CourseBase> {
 
     /**
      * @description 课程查询
-     * @param params 分页参数
      * @param queryCourseParamsDto 查询条件
      * @return com.xuecheng.base.model.PageResult<com.xuecheng.content.model.po.CourseBase>
      * @author Mr.M
      * @date 2022/10/8 9:46
      */
-    public PageResult<CourseBase>  queryCourseBaseList(PageParams params, QueryCourseParamsDto queryCourseParamsDto);
+    public PageResult<CourseBase>  queryCourseBaseList(Long companyId,PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
 
     /**
      * 新增课程

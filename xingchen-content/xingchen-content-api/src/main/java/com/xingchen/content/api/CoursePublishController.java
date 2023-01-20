@@ -44,6 +44,7 @@ public class CoursePublishController {
      * 提交审核
      * @param courseId
      */
+    @ApiOperation("提交审核")
     @ResponseBody
     @PostMapping("/courseaudit/commit/{courseId}")
     public void commitAudit(@PathVariable("courseId") Long courseId) {

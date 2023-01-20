@@ -6,7 +6,9 @@ import com.xingchen.media.service.MediaFilesService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Resource;
+
+import javax.annotation.Resource;
+
 
 /**
  * <p>

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: checkcode
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: ${spring.profiles.active}
+        group: xingchen-grow-backend
+      config:
+        namespace: ${spring.profiles.active}
+        group: Xingchen-grow-backend
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xingchen-comment
+            refresh: true
+
+  profiles:
+    active: dev

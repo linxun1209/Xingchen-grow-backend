@@ -12,6 +12,7 @@
     <description>xingchen-system-model</description>
 
     <dependencies>
+
         <dependency>
             <groupId>com.xingchen</groupId>
             <artifactId>xingchen-base</artifactId>
@@ -32,21 +33,5 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
 </project>

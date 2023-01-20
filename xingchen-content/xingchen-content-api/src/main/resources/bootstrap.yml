@@ -20,9 +20,9 @@ spring:
           - data-id: swagger-${spring.profiles.active}.yaml
             group: xingchen-comment
             refresh: true
-#          - data-id: feign-${spring.profiles.active}.yaml
-#            group: xingchen-comment
-#            refresh: true
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: xingchen-comment
+            refresh: true
           - data-id: freemarker-config-${spring.profiles.active}.yaml
             group: xingchen-comment
             refresh: true

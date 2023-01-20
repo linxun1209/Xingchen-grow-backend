@@ -23,6 +23,8 @@
         </dependency>
 
         <dependency>
+
+
             <groupId>com.xingchen</groupId>
             <artifactId>xingchen-content-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>

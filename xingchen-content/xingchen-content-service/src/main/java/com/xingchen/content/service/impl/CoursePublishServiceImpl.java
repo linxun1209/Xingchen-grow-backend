@@ -2,9 +2,11 @@ package com.xingchen.content.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xingchen.base.exception.CommonError;
 import com.xingchen.base.exception.xingchenPlusException;
 
-import com.xingchen.content.config.MultipartSupportConfig;
+
+import com.xingchen.config.MultipartSupportConfig;
 import com.xingchen.content.feignclient.MediaServiceClient;
 import com.xingchen.content.feignclient.SearchServiceClient;
 import com.xingchen.content.feignclient.model.CourseIndex;
@@ -22,6 +24,8 @@ import com.xingchen.content.model.po.CoursePublishPre;
 import com.xingchen.content.service.CourseBaseInfoService;
 import com.xingchen.content.service.CoursePublishService;
 import com.xingchen.content.service.TeachplanService;
+import com.xingchen.content.service.jobhandler.CoursePublishTask;
+import com.xingchen.messagesdk.model.po.MqMessage;
 import com.xingchen.messagesdk.service.MqMessageService;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -187,11 +191,24 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
 
     }
 
-    private void saveCoursePublishMessage(Long courseId) {
+    /**
+     * @description 保存消息表记录
+     * @param courseId  课程id
+     * @return void
+     * @date 2022/9/20 16:32
+     */
+    private void saveCoursePublishMessage(Long courseId){
+        MqMessage mqMessage = mqMessageService.addMessage(CoursePublishTask.MESSAGE_TYPE, String.valueOf(courseId), null, null);
+        if(mqMessage!=null){
+            xingchenPlusException.cast(CommonError.UNKOWN_ERROR);
+        }
     }
 
 
-    //保存课程发布信息
+    /**
+     * 保存课程发布信息
+     * @param courseId
+     */
     private void saveCoursePublish(Long courseId) {
 
         //课程发布信息来源于预发布表
@@ -272,7 +289,7 @@ public class CoursePublishServiceImpl extends ServiceImpl<CoursePublishMapper, C
         //objectName 课程id.html
         String objectName = courseId+".html";
         //远程调用媒资管理服务上传文件
-        String course = mediaServiceClient.upload(multipartFile, "course", objectName);
+        String course = mediaServiceClient.uploadFile(multipartFile, "course", objectName);
         if(course == null){
             xingchenPlusException.cast("远程调用媒资服务上传文件失败");
         }

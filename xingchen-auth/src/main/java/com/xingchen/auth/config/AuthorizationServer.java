@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
@@ -41,8 +42,9 @@ import javax.annotation.Resource;
                 // client_id
                 .withClient("XcWebApp")
                 //客户端密钥
-                .secret("XcWebApp")
-//                .secret(new BCryptPasswordEncoder().encode("XcWebApp"))//客户端密钥
+                //.secret("XcWebApp")
+                //客户端密钥
+                .secret(new BCryptPasswordEncoder().encode("XcWebApp"))
                 ////资源列表
                 .resourceIds("xuecheng-plus")
                 //该client允许的授权类型authorization_code,password,refresh_token,implicit,client_credentials

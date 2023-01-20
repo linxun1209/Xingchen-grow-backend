@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
+ * @author xing'chen
  * @description 搜索服务远程调用接口
- * @author Mr.M
  * @date 2022/10/19 9:24
  * @version 1.0
  */

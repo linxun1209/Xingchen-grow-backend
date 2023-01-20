@@ -12,14 +12,6 @@ import org.springframework.context.annotation.Bean;
 @EnableSwagger2Doc
 @SpringBootApplication
 public class SystemApplication {
-    @Value("${server.port}")
-    String a;
-
-    @Bean
-    public String getTest(){
-        System.out.println("a"+a);
-        return a;
-    }
 
     public static void main(String[] args) {
 

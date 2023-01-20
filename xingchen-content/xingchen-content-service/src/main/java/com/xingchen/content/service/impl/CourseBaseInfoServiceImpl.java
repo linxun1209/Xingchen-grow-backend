@@ -52,12 +52,15 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
     CourseMarketServiceImpl courseMarketService;
 
     @Override
-    public PageResult<CourseBase> queryCourseBaseList(PageParams params, QueryCourseParamsDto queryCourseParamsDto) {
+    public PageResult<CourseBase> queryCourseBaseList(Long companyId,PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
 
+        //构建查询条件对象
         LambdaQueryWrapper<CourseBase> queryWrapper = new LambdaQueryWrapper<>();
 
-        //拼接查询条件
-        //根据课程名称模糊查询  name like '%名称%'
+        //机构id
+        queryWrapper.eq(CourseBase::getCompanyId,companyId);
+
+        //拼接查询条件 根据课程名称模糊查询  name like '%名称%'
         queryWrapper.like(StringUtils.isNotEmpty(queryCourseParamsDto.getCourseName()),CourseBase::getName,queryCourseParamsDto.getCourseName());
 
         //根据课程审核状态
@@ -66,9 +69,8 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
         //根据课程发布状态
         queryWrapper.eq(StringUtils.isNotEmpty(queryCourseParamsDto.getPublishStatus()),CourseBase::getAuditStatus,queryCourseParamsDto.getPublishStatus());
 
-
         //分页参数
-        Page<CourseBase> page = new Page<>(params.getPageNo(), params.getPageSize());
+        Page<CourseBase> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
 
 
         //分页查询E page 分页参数, @Param("ew") Wrapper<T> queryWrapper 查询条件
@@ -81,7 +83,7 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
 
 
         //准备返回数据 List<T> items, long counts, long page, long pageSize
-        PageResult<CourseBase> courseBasePageResult = new PageResult<>(items, total, params.getPageNo(), params.getPageSize());
+        PageResult<CourseBase> courseBasePageResult = new PageResult<>(items, total, pageParams.getPageNo(), pageParams.getPageSize());
 
         return courseBasePageResult;
     }
@@ -166,7 +168,11 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
         return getCourseBaseInfo(courseId);
     }
 
-    //抽取对营销的保存
+    /**
+     * 抽取对营销的保存
+     * @param courseMarket
+     * @return
+     */
     private int saveCourseMarket(CourseMarket courseMarket){
 
 
@@ -176,7 +182,6 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
         }
         if(charge.equals("201001")){
             if(courseMarket.getPrice()==null || courseMarket.getPrice().floatValue()<=0){
-//                throw new RuntimeException("课程为收费价格不能为空且必须大于0");
                 xingchenPlusException.cast("课程为收费价格不能为空且必须大于0");
 
             }
@@ -208,9 +213,11 @@ public class CourseBaseInfoServiceImpl extends ServiceImpl<CourseBaseMapper, Cou
         }
 
         //向分类的名称查询出来
-        CourseCategory courseCategory = courseCategoryMapper.selectById(courseBase.getMt());//一级分类
+        //一级分类
+        CourseCategory courseCategory = courseCategoryMapper.selectById(courseBase.getMt());
         courseBaseInfoDto.setMtName(courseCategory.getName());
-        CourseCategory courseCategory2 = courseCategoryMapper.selectById(courseBase.getSt());//二级分类
+        //二级分类
+        CourseCategory courseCategory2 = courseCategoryMapper.selectById(courseBase.getSt());
         courseBaseInfoDto.setStName(courseCategory2.getName());
 
         return courseBaseInfoDto;

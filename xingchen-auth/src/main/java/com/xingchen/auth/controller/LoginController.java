@@ -1,5 +1,6 @@
 package com.xingchen.auth.controller;
 
+
 import com.xingchen.ucenter.mapper.XcUserMapper;
 import com.xingchen.ucenter.model.po.XcUser;
 import lombok.extern.slf4j.Slf4j;
@@ -38,14 +39,14 @@ public class LoginController {
     }
 
     @RequestMapping("/r/r1")
-    @PreAuthorize("hasAuthority('p1')")//拥有p1权限方可访问
-    public String r1(){
+    @PreAuthorize("hasAuthority('p1')")
+    public String r1() {
         return "访问r1资源";
     }
 
     @RequestMapping("/r/r2")
-    @PreAuthorize("hasAuthority('p2')")//拥有p2权限方可访问
-    public String r2(){
+    @PreAuthorize("hasAuthority('p2')")
+    public String r2() {
         return "访问r2资源";
     }
 
