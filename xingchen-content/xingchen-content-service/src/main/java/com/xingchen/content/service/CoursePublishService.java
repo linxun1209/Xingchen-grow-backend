@@ -68,4 +68,6 @@ public interface CoursePublishService extends IService<CoursePublish> {
      * @return
      */
     public Boolean saveCourseIndex(Long courseId) ;
+
+    CoursePublish getCoursePublish(Long courseId);
 }

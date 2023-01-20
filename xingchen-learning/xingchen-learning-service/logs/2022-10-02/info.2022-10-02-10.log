@@ -1,0 +1,210 @@
+2022-10-02 10:37:18,683 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 10:37:18,683 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 10:37:19,665 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 10:37:19,665 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 10:37:19,835 INFO [main][GenericScope.java:295] - BeanFactory id=465c658b-5c00-35e4-8468-fedda6a50af1
+2022-10-02 10:37:19,835 INFO [main][GenericScope.java:295] - BeanFactory id=465c658b-5c00-35e4-8468-fedda6a50af1
+2022-10-02 10:37:20,340 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:37:20,340 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:37:20,341 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:37:20,341 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:37:20,354 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:37:20,354 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 10:37:20,354 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:37:20,354 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 10:37:22,510 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:37:22,510 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:37:22,525 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:37:22,525 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:37:22,643 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 10:37:22,643 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 10:37:22,821 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7cfb4736'
+2022-10-02 10:37:22,821 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7cfb4736'
+2022-10-02 10:37:22,824 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 10:37:22,824 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 10:37:24,802 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 10:37:24,802 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 10:37:24,819 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 10:37:24,819 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 10:37:24,821 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 10:37:24,821 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 10:37:24,822 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 10:37:24,822 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 10:37:24,825 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 10:37:24,825 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 10:37:24,826 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 10:37:24,826 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 10:37:24,827 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 10:37:24,827 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 10:37:24,828 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 10:37:24,828 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 10:37:24,828 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 10:37:24,828 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 10:37:24,831 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 10:37:24,831 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 10:37:24,835 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 10:37:24,835 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 10:37:24,836 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 10:37:24,836 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 10:37:24,837 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 10:37:24,837 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 10:37:24,837 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 10:37:24,837 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 10:37:24,838 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 10:37:24,838 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 10:37:24,838 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 10:37:24,838 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 10:37:25,087 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 10:37:25,087 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 10:37:27,797 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:37:27,797 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 10:37:28,260 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 10:37:28,260 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 10:37:28,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 10:37:28,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 10:37:28,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 10:37:28,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 10:37:28,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 10:37:28,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 10:37:28,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 10:37:28,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 10:37:28,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 10:37:28,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 10:37:28,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 10:37:28,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 10:37:28,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 10:37:28,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 10:37:28,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 10:37:28,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 10:37:28,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 10:37:28,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 10:37:28,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 10:37:28,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 10:37:28,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 10:37:28,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 10:37:28,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 10:37:28,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 10:37:28,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 10:37:28,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 10:37:28,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 10:37:28,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 10:37:28,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 10:37:28,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 10:37:28,357 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 10:37:28,357 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 10:37:28,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 10:37:28,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 10:37:28,379 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 10:37:28,379 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 10:37:28,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 10:37:28,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 10:37:28,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 10:37:28,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 10:37:28,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 10:37:28,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 10:37:28,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 10:37:28,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 10:37:28,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 10:37:28,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 10:37:28,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 10:37:28,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 10:37:28,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 10:37:28,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 10:37:28,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 10:37:28,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 10:37:28,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 10:37:28,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 10:37:28,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 10:37:28,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 10:37:28,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 10:37:28,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 10:37:28,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 10:37:28,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 10:37:28,424 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 10:37:28,424 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 10:37:28,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 10:37:28,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 10:37:28,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 10:37:28,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 10:37:28,465 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 10:37:28,465 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 10:37:28,467 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 10:37:28,467 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 10:37:28,468 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 10:37:28,468 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 10:37:28,476 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:37:28,476 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:37:28,478 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:37:28,478 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 10:37:28,486 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 10:37:28,486 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 10:37:28,502 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 10:37:28,502 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 10:37:28,505 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=61816&clusters=DEFAULT, body: {}
+2022-10-02 10:37:28,505 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=61816&clusters=DEFAULT, body: {}
+2022-10-02 10:37:28,634 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.417 seconds (JVM running for 23.162)
+2022-10-02 10:37:28,634 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.417 seconds (JVM running for 23.162)
+2022-10-02 10:37:28,640 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 10:37:28,640 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 10:37:28,642 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:37:28,642 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:37:28,644 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 10:37:28,644 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 10:37:28,644 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:37:28,644 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:37:28,645 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 10:37:28,645 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 10:37:28,647 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:37:28,647 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 10:37:28,649 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 10:37:28,649 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 10:37:28,650 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 10:37:28,650 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 10:37:28,654 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:37:28,654 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:37:28,655 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34afca25]
+2022-10-02 10:37:28,655 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34afca25]
+2022-10-02 10:37:28,663 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:37:28,664 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34afca25]
+2022-10-02 10:37:28,663 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 10:37:28,664 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34afca25]
+2022-10-02 10:37:29,200 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 10:37:29,200 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 10:37:29,202 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 10:37:29,200 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 10:37:29,200 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 10:37:29,202 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 10:37:29,202 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 10:37:29,202 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 10:37:29,205 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:37:29,205 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 10:37:29,222 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 10:37:29,222 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 10:37:29,222 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 10:37:29,222 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 10:37:29,222 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 10:37:29,222 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 10:37:29,621 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=61816&clusters=DEFAULT, body: {}
+2022-10-02 10:37:29,621 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=61816&clusters=DEFAULT, body: {}
+2022-10-02 10:37:29,626 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 10:37:29,626 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 10:37:32,628 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 10:37:32,628 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 10:37:32,629 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 10:37:32,629 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 10:37:35,630 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 10:37:35,630 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 10:37:35,630 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 10:37:35,630 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 10:37:35,630 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 10:37:35,630 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 10:37:35,631 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 10:37:35,631 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 10:37:35,631 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 10:37:35,631 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 10:37:35,631 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 10:37:35,631 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 10:37:35,631 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 10:37:35,631 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 10:37:35,632 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 10:37:35,632 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop

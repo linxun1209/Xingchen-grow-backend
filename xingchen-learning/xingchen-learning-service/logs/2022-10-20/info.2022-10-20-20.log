@@ -1,0 +1,502 @@
+2022-10-20 20:54:44,533 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-20 20:54:44,533 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-20 20:54:45,432 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-20 20:54:45,432 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-20 20:54:45,622 INFO [main][GenericScope.java:295] - BeanFactory id=c89087f9-0a5f-3c80-9d14-fda8f2482408
+2022-10-20 20:54:45,622 INFO [main][GenericScope.java:295] - BeanFactory id=c89087f9-0a5f-3c80-9d14-fda8f2482408
+2022-10-20 20:54:45,746 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-20 20:54:45,746 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-20 20:54:45,749 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.xuecheng.learning.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-20 20:54:45,749 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.xuecheng.learning.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-20 20:54:46,820 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-20 20:54:46,820 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-20 20:54:47,022 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@9e62fb'
+2022-10-20 20:54:47,022 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@9e62fb'
+2022-10-20 20:54:47,026 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-20 20:54:47,026 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-20 20:54:48,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-20 20:54:48,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-20 20:54:48,975 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-20 20:54:48,975 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-20 20:54:48,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-20 20:54:48,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-20 20:54:49,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-20 20:54:49,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-20 20:54:49,070 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-20 20:54:49,070 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-20 20:54:49,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-20 20:54:49,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-20 20:54:49,091 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-20 20:54:49,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-20 20:54:49,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-20 20:54:49,091 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-20 20:54:49,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-20 20:54:49,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-20 20:54:49,106 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-20 20:54:49,106 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-20 20:54:49,113 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-20 20:54:49,113 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-20 20:54:49,120 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-20 20:54:49,120 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-20 20:54:49,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-20 20:54:49,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-20 20:54:49,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-20 20:54:49,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-20 20:54:49,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-20 20:54:49,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-20 20:54:49,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-20 20:54:49,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-20 20:54:49,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-20 20:54:49,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-20 20:54:49,186 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.myCourseTables
+2022-10-20 20:54:49,186 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.myCourseTables
+2022-10-20 20:54:49,188 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.myCourseTablesCount
+2022-10-20 20:54:49,188 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.myCourseTablesCount
+2022-10-20 20:54:49,194 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-20 20:54:49,194 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-20 20:54:49,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-20 20:54:49,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-20 20:54:49,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-20 20:54:49,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-20 20:54:49,225 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-20 20:54:49,225 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-20 20:54:49,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-20 20:54:49,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-20 20:54:49,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-20 20:54:49,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-20 20:54:49,257 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-20 20:54:49,257 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-20 20:54:49,259 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-20 20:54:49,259 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-20 20:54:49,264 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-20 20:54:49,264 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-20 20:54:49,285 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-20 20:54:49,285 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-20 20:54:49,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-20 20:54:49,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-20 20:54:49,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-20 20:54:49,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-20 20:54:49,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-20 20:54:49,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-20 20:54:49,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-20 20:54:49,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-20 20:54:49,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-20 20:54:49,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-20 20:54:49,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-20 20:54:49,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-20 20:54:49,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-20 20:54:49,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-20 20:54:49,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.initLearnRecord
+2022-10-20 20:54:49,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.initLearnRecord
+2022-10-20 20:54:49,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.insert
+2022-10-20 20:54:49,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.insert
+2022-10-20 20:54:49,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.delete
+2022-10-20 20:54:49,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.delete
+2022-10-20 20:54:49,618 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.deleteByMap
+2022-10-20 20:54:49,618 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.deleteByMap
+2022-10-20 20:54:49,622 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.deleteById
+2022-10-20 20:54:49,622 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.deleteById
+2022-10-20 20:54:49,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.deleteBatchIds
+2022-10-20 20:54:49,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.deleteBatchIds
+2022-10-20 20:54:49,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.update
+2022-10-20 20:54:49,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.update
+2022-10-20 20:54:49,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.updateById
+2022-10-20 20:54:49,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectById
+2022-10-20 20:54:49,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.updateById
+2022-10-20 20:54:49,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectById
+2022-10-20 20:54:49,648 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectBatchIds
+2022-10-20 20:54:49,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectByMap
+2022-10-20 20:54:49,660 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectOne
+2022-10-20 20:54:49,666 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectCount
+2022-10-20 20:54:49,648 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectBatchIds
+2022-10-20 20:54:49,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectByMap
+2022-10-20 20:54:49,660 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectOne
+2022-10-20 20:54:49,666 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectCount
+2022-10-20 20:54:49,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectMaps
+2022-10-20 20:54:49,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectMaps
+2022-10-20 20:54:49,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectMapsPage
+2022-10-20 20:54:49,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectMapsPage
+2022-10-20 20:54:49,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectObjs
+2022-10-20 20:54:49,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectObjs
+2022-10-20 20:54:49,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectList
+2022-10-20 20:54:49,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectList
+2022-10-20 20:54:49,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectPage
+2022-10-20 20:54:49,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcLearnRecordMapper.selectPage
+2022-10-20 20:54:51,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-10-20 20:54:51,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-10-20 20:54:51,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-10-20 20:54:51,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-10-20 20:54:51,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-10-20 20:54:51,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-10-20 20:54:51,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-10-20 20:54:51,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-10-20 20:54:51,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-10-20 20:54:51,289 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-10-20 20:54:51,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-10-20 20:54:51,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-10-20 20:54:51,294 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-10-20 20:54:51,294 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-10-20 20:54:51,298 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-10-20 20:54:51,298 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-10-20 20:54:51,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-10-20 20:54:51,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-10-20 20:54:51,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-10-20 20:54:51,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-10-20 20:54:51,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-10-20 20:54:51,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-10-20 20:54:51,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-10-20 20:54:51,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-10-20 20:54:51,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-10-20 20:54:51,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-10-20 20:54:51,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-10-20 20:54:51,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-10-20 20:54:51,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-10-20 20:54:51,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-10-20 20:54:51,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-10-20 20:54:51,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-10-20 20:54:51,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-10-20 20:54:51,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-10-20 20:54:51,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-10-20 20:54:51,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-10-20 20:54:51,354 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-10-20 20:54:51,354 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-10-20 20:54:51,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-10-20 20:54:51,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-10-20 20:54:51,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-20 20:54:51,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-20 20:54:51,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-10-20 20:54:51,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-10-20 20:54:51,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-20 20:54:51,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-20 20:54:51,379 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-10-20 20:54:51,379 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-10-20 20:54:51,383 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-10-20 20:54:51,383 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-10-20 20:54:51,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-10-20 20:54:51,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-10-20 20:54:51,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-20 20:54:51,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-20 20:54:51,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-20 20:54:51,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-20 20:54:51,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-10-20 20:54:51,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-10-20 20:54:51,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-10-20 20:54:51,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-10-20 20:54:51,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-20 20:54:51,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-20 20:54:51,404 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-20 20:54:51,404 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-20 20:54:51,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-20 20:54:51,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-20 20:54:51,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-10-20 20:54:51,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-10-20 20:54:51,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-10-20 20:54:51,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-10-20 20:54:51,662 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-20 20:54:51,662 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-20 20:54:51,663 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-20 20:54:51,663 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-20 20:54:51,676 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-20 20:54:51,676 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-20 20:54:51,676 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-20 20:54:51,676 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-20 20:54:54,033 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-20 20:54:54,033 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-20 20:54:54,048 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-20 20:54:54,048 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-20 20:54:54,246 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-20 20:54:54,246 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-20 20:54:54,260 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-20 20:54:54,260 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-20 20:54:54,261 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-20 20:54:54,261 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-20 20:54:54,262 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-20 20:54:54,262 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-20 20:54:54,265 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-20 20:54:54,265 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-20 20:54:54,266 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-20 20:54:54,266 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-20 20:54:54,266 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-20 20:54:54,266 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-20 20:54:54,267 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-20 20:54:54,267 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-20 20:54:54,268 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-20 20:54:54,268 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-20 20:54:54,269 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-20 20:54:54,269 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-20 20:54:54,271 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-20 20:54:54,271 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-20 20:54:54,272 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-20 20:54:54,272 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-20 20:54:54,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-20 20:54:54,461 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-20 20:54:54,461 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-20 20:54:57,129 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-20 20:54:57,129 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-20 20:54:57,422 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-20 20:54:57,422 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-20 20:54:57,423 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-20 20:54:57,423 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-20 20:54:57,424 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-20 20:54:57,424 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-20 20:54:57,432 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-20 20:54:57,432 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-20 20:54:57,433 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-20 20:54:57,433 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-20 20:54:57,439 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:54:57,439 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:54:57,451 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-20 20:54:57,451 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-20 20:54:57,454 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:54:57,454 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:54:57,557 INFO [main][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:54:57,557 INFO [main][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:54:58,552 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:54:58,552 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:00,558 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:00,558 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:01,597 INFO [main][AbstractMessageListenerContainer.java:1795] - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+2022-10-20 20:55:01,597 INFO [main][AbstractMessageListenerContainer.java:1795] - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+2022-10-20 20:55:01,603 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:01,603 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:02,442 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:02,442 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:04,562 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:04,562 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:05,627 ERROR [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][AbstractMessageListenerContainer.java:1846] - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1859)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1840)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1354)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1200)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 12 more
+2022-10-20 20:55:05,627 ERROR [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][AbstractMessageListenerContainer.java:1846] - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1859)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1840)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1354)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1200)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 12 more
+2022-10-20 20:55:05,639 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:05,639 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:07,444 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:07,444 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:09,669 INFO [main][StartupInfoLogger.java:61] - Started PayNotifyServiceTest in 31.628 seconds (JVM running for 34.732)
+2022-10-20 20:55:09,669 INFO [main][StartupInfoLogger.java:61] - Started PayNotifyServiceTest in 31.628 seconds (JVM running for 34.732)
+2022-10-20 20:55:09,674 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-20 20:55:09,674 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-20 20:55:09,675 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-20 20:55:09,675 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-20 20:55:09,677 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] feign-dev.yaml+xuecheng-plus-common+dev
+2022-10-20 20:55:09,677 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] feign-dev.yaml+xuecheng-plus-common+dev
+2022-10-20 20:55:09,677 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=feign-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-20 20:55:09,677 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=feign-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-20 20:55:09,678 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-20 20:55:09,678 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-20 20:55:09,679 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-20 20:55:09,679 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-20 20:55:09,681 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=feign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-20 20:55:09,681 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=feign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-20 20:55:09,682 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-20 20:55:09,682 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-20 20:55:09,682 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@2b9d02cd]
+2022-10-20 20:55:09,682 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@2b9d02cd]
+2022-10-20 20:55:09,682 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-20 20:55:09,682 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-20 20:55:09,683 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-20 20:55:09,683 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-20 20:55:09,684 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-20 20:55:09,684 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-20 20:55:09,688 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project8413185b8b7606c892d694b6b9590e17devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-20 20:55:09,688 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project8413185b8b7606c892d694b6b9590e17devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-20 20:55:09,688 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@2b9d02cd]
+2022-10-20 20:55:09,688 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@2b9d02cd]
+2022-10-20 20:55:09,691 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project8413185b8b7606c892d694b6b9590e17devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-20 20:55:09,691 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project8413185b8b7606c892d694b6b9590e17devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devfeign-dev.yamlxuecheng-plus-common2287b4dcf1db4d243a11c74f7a2b6affdevlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-20 20:55:09,692 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@2b9d02cd]
+2022-10-20 20:55:09,692 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@2b9d02cd]
+2022-10-20 20:55:21,449 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:21,449 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:21,449 WARN [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][SimpleMessageListenerContainer.java:1457] - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2022-10-20 20:55:21,449 WARN [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][SimpleMessageListenerContainer.java:1457] - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2022-10-20 20:55:21,450 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:21,450 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.0.126&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62801&clusters=DEFAULT, body: {}
+2022-10-20 20:55:21,453 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][SimpleMessageListenerContainer.java:1436] - Restarting Consumer@35f6f105: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2022-10-20 20:55:21,453 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1][SimpleMessageListenerContainer.java:1436] - Restarting Consumer@35f6f105: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2022-10-20 20:55:21,454 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:21,454 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:25,478 INFO [main][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:25,478 INFO [main][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:25,478 ERROR [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2][AbstractMessageListenerContainer.java:1846] - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1859)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1840)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1354)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1200)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 12 more
+2022-10-20 20:55:25,478 ERROR [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2][AbstractMessageListenerContainer.java:1846] - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1859)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1840)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1354)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1200)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 12 more
+2022-10-20 20:55:26,451 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:26,451 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:27,435 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-20 20:55:27,435 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-20 20:55:29,503 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:29,503 INFO [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2][AbstractConnectionFactory.java:558] - Attempting to connect to: [localhost:5672]
+2022-10-20 20:55:29,525 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-20 20:55:29,525 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-20 20:55:29,525 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-20 20:55:29,525 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-20 20:55:29,526 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-20 20:55:29,526 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-20 20:55:29,527 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-20 20:55:29,527 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-20 20:55:29,529 INFO [SpringContextShutdownHook][SimpleMessageListenerContainer.java:646] - Waiting for workers to finish.
+2022-10-20 20:55:29,529 INFO [SpringContextShutdownHook][SimpleMessageListenerContainer.java:646] - Waiting for workers to finish.
+2022-10-20 20:55:29,529 INFO [SpringContextShutdownHook][SimpleMessageListenerContainer.java:649] - Successfully waited for workers to finish.
+2022-10-20 20:55:29,529 INFO [SpringContextShutdownHook][SimpleMessageListenerContainer.java:649] - Successfully waited for workers to finish.
+2022-10-20 20:55:29,529 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-20 20:55:29,529 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-20 20:55:29,533 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-20 20:55:29,533 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-20 20:55:29,533 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-20 20:55:29,533 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-20 20:55:29,533 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-20 20:55:29,533 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-20 20:55:31,452 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:31,452 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-20 20:55:32,536 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-20 20:55:32,536 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-20 20:55:35,541 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-20 20:55:35,541 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-20 20:55:35,541 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-20 20:55:35,541 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-20 20:55:35,542 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-20 20:55:35,542 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-20 20:55:35,542 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-20 20:55:35,542 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-20 20:55:35,542 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-20 20:55:35,542 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-20 20:55:35,542 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-20 20:55:35,542 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-20 20:55:35,542 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-20 20:55:35,542 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-20 20:55:35,543 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-20 20:55:35,543 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-20 20:55:35,543 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-20 20:55:35,543 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-20 20:55:35,543 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-20 20:55:35,543 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-20 20:55:35,546 INFO [SpringContextShutdownHook][AbstractMessageListenerContainer.java:1260] - Shutdown ignored - container is not active already
+2022-10-20 20:55:35,546 INFO [SpringContextShutdownHook][AbstractMessageListenerContainer.java:1260] - Shutdown ignored - container is not active already

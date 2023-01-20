@@ -1,0 +1,1164 @@
+2022-10-02 16:20:30,701 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:20:30,701 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:20:31,532 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:20:31,532 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:20:31,707 INFO [main][GenericScope.java:295] - BeanFactory id=b3286cf5-0594-337c-a259-e8f90273b1d3
+2022-10-02 16:20:31,707 INFO [main][GenericScope.java:295] - BeanFactory id=b3286cf5-0594-337c-a259-e8f90273b1d3
+2022-10-02 16:20:31,775 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:20:31,775 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:20:32,263 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:20:32,263 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:20:32,430 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@341b13a8'
+2022-10-02 16:20:32,430 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@341b13a8'
+2022-10-02 16:20:32,433 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:20:32,433 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:20:33,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:20:33,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:20:33,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:20:33,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:20:33,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:20:33,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:20:33,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:20:33,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:20:33,638 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:20:33,638 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:20:33,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:20:33,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:20:33,649 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:20:33,649 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:20:33,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:20:33,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:20:33,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:20:33,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:20:33,656 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:20:33,656 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:20:33,661 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:20:33,661 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:20:33,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:20:33,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:20:33,669 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:20:33,669 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:20:33,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:20:33,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:20:33,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:20:33,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:20:33,679 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:20:33,679 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:20:33,682 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:20:33,682 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:20:33,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:20:33,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:20:33,716 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:20:33,716 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:20:33,719 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:20:33,719 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:20:33,722 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:20:33,722 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:20:33,725 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:20:33,725 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:20:33,729 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:20:33,729 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:20:33,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:20:33,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:20:33,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:20:33,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:20:33,735 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:20:33,735 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:20:33,739 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:20:33,739 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:20:33,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:20:33,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:20:33,745 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:20:33,745 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:20:33,747 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:20:33,747 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:20:33,752 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:20:33,752 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:20:33,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:20:33,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:20:33,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:20:33,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:20:33,761 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:20:33,761 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:20:33,806 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:20:33,806 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:20:33,807 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:20:33,807 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:20:33,820 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:20:33,820 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:20:33,820 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:20:33,820 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:20:36,145 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:20:36,145 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:20:36,156 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:20:36,156 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:20:37,496 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:20:37,496 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:20:37,530 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:20:37,530 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:20:37,532 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:20:37,532 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:20:37,534 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:20:37,534 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:20:37,538 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:20:37,538 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:20:37,539 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:20:37,539 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:20:37,540 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:20:37,540 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:20:37,541 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:20:37,541 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:20:37,543 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:20:37,543 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:20:37,547 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:20:37,547 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:20:37,552 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:20:37,552 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:20:37,553 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:20:37,553 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:20:37,554 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:20:37,554 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:20:37,554 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:20:37,554 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:20:37,555 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:20:37,555 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:20:37,555 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:20:37,555 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:20:37,903 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:20:37,903 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:20:40,536 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:20:40,536 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:20:40,842 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:20:40,842 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:20:40,842 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:20:40,842 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:20:40,843 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:20:40,843 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:20:40,850 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:20:40,850 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:20:40,851 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:20:40,851 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:20:40,857 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:20:40,857 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:20:40,869 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:20:40,869 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:20:40,873 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=57407&clusters=DEFAULT, body: {}
+2022-10-02 16:20:40,873 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=57407&clusters=DEFAULT, body: {}
+2022-10-02 16:20:40,984 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.386 seconds (JVM running for 21.023)
+2022-10-02 16:20:40,984 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.386 seconds (JVM running for 21.023)
+2022-10-02 16:20:40,991 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:20:40,991 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:20:40,992 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:20:40,992 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:20:40,994 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:20:40,994 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:20:40,996 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:20:40,996 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:20:40,998 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:20:40,998 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:20:40,998 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:20:40,998 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:20:41,000 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:20:41,000 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:20:41,001 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@646ade41]
+2022-10-02 16:20:41,001 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@646ade41]
+2022-10-02 16:20:41,002 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:20:41,002 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:20:41,002 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:20:41,002 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:20:41,010 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:20:41,010 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:20:41,010 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@646ade41]
+2022-10-02 16:20:41,010 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@646ade41]
+2022-10-02 16:20:41,014 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:20:41,014 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:20:41,015 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@646ade41]
+2022-10-02 16:20:41,015 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@646ade41]
+2022-10-02 16:20:41,974 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=57407&clusters=DEFAULT, body: {}
+2022-10-02 16:20:41,974 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=57407&clusters=DEFAULT, body: {}
+2022-10-02 16:20:42,043 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:20:42,043 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:20:42,044 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:20:42,044 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:20:42,045 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:20:42,045 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:20:42,045 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:20:42,045 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:20:42,090 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:20:42,090 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:20:42,119 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-service]:  pingIntervalSeconds set to 30
+2022-10-02 16:20:42,119 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-service]:  pingIntervalSeconds set to 30
+2022-10-02 16:20:42,120 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-service]: maxTotalPingTime set to 2
+2022-10-02 16:20:42,120 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-service]: maxTotalPingTime set to 2
+2022-10-02 16:20:42,125 INFO [main][BaseLoadBalancer.java:197] - Client: content-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:20:42,125 INFO [main][BaseLoadBalancer.java:197] - Client: content-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:20:42,132 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:20:42,132 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:20:42,137 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:20:42,137 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:20:42,137 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-service&udpPort=57407&clusters=, body: {}
+2022-10-02 16:20:42,137 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-service&udpPort=57407&clusters=, body: {}
+2022-10-02 16:20:42,143 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-service obtained from Discovery client: []
+2022-10-02 16:20:42,143 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-service obtained from Discovery client: []
+2022-10-02 16:20:42,144 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-service obtained from Discovery client: []
+2022-10-02 16:20:42,144 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-service obtained from Discovery client: []
+2022-10-02 16:20:42,144 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-service]: clearing server list (SET op)
+2022-10-02 16:20:42,144 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-service]: clearing server list (SET op)
+2022-10-02 16:20:42,145 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2022-10-02 16:20:42,145 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2022-10-02 16:20:42,145 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@285bf5ac
+2022-10-02 16:20:42,145 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@285bf5ac
+2022-10-02 16:20:42,429 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:20:42,429 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:20:42,484 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:20:42,484 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:20:42,484 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:20:42,485 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:20:42,485 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:20:42,484 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:20:42,486 INFO [Thread-21][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:20:42,486 INFO [Thread-21][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:20:42,487 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:20:42,487 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:20:42,489 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:20:42,489 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:20:42,513 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:20:42,513 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:20:42,513 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:20:42,513 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:20:42,513 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:20:42,513 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:20:43,143 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-service&udpPort=57407&clusters=, body: {}
+2022-10-02 16:20:43,143 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-service&udpPort=57407&clusters=, body: {}
+2022-10-02 16:20:43,980 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=57407&clusters=DEFAULT, body: {}
+2022-10-02 16:20:43,980 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=57407&clusters=DEFAULT, body: {}
+2022-10-02 16:20:43,983 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:20:43,983 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:20:45,859 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:20:45,859 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:20:46,985 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:20:46,985 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:20:46,985 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:20:46,985 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:20:49,987 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:20:49,987 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:20:49,987 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:20:49,987 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:20:49,987 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:20:49,987 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:20:49,988 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:20:49,988 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:20:49,988 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:20:49,988 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:20:49,988 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:20:49,988 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:20:49,989 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:20:49,989 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:20:49,989 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:20:49,989 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:22:04,057 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:22:04,057 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:22:05,784 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:22:05,784 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:22:06,189 INFO [main][GenericScope.java:295] - BeanFactory id=97097de5-95ac-3bdb-a24f-d230affd0b91
+2022-10-02 16:22:06,189 INFO [main][GenericScope.java:295] - BeanFactory id=97097de5-95ac-3bdb-a24f-d230affd0b91
+2022-10-02 16:22:06,379 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:22:06,379 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:22:07,430 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:22:07,430 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:22:07,781 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@a457c2b'
+2022-10-02 16:22:07,781 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@a457c2b'
+2022-10-02 16:22:07,786 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:22:07,786 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:22:09,239 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:22:09,239 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:22:09,245 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:22:09,245 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:22:09,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:22:09,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:22:09,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:22:09,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:22:09,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:22:09,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:22:09,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:22:09,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:22:09,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:22:09,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:22:09,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:22:09,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:22:09,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:22:09,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:22:09,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:22:09,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:22:09,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:22:09,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:22:09,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:22:09,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:22:09,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:22:09,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:22:09,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:22:09,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:22:09,346 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:22:09,346 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:22:09,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:22:09,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:22:09,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:22:09,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:22:09,378 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:22:09,378 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:22:09,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:22:09,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:22:09,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:22:09,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:22:09,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:22:09,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:22:09,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:22:09,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:22:09,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:22:09,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:22:09,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:22:09,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:22:09,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:22:09,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:22:09,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:22:09,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:22:09,406 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:22:09,406 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:22:09,410 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:22:09,410 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:22:09,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:22:09,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:22:09,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:22:09,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:22:09,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:22:09,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:22:09,424 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:22:09,424 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:22:09,427 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:22:09,427 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:22:09,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:22:09,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:22:09,470 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:22:09,470 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:22:09,471 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:22:09,471 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:22:09,481 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:22:09,481 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:22:09,482 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:22:09,482 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:22:11,751 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:22:11,751 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:22:11,764 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:22:11,764 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:22:13,073 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:22:13,073 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:22:13,093 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:22:13,093 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:22:13,095 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:22:13,095 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:22:13,097 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:22:13,097 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:22:13,100 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:22:13,100 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:22:13,101 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:22:13,101 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:22:13,102 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:22:13,102 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:22:13,103 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:22:13,103 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:22:13,103 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:22:13,103 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:22:13,106 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:22:13,106 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:22:13,110 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:22:13,110 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:22:13,112 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:22:13,112 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:22:13,112 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:22:13,112 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:22:13,112 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:22:13,112 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:22:13,113 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:22:13,113 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:22:13,113 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:22:13,113 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:22:13,451 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:22:13,451 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:22:16,445 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:22:16,445 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:22:16,774 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:22:16,774 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:22:16,775 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:22:16,775 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:22:16,775 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:22:16,775 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:22:16,781 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:22:16,781 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:22:16,783 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:22:16,783 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:22:16,788 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:22:16,788 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:22:16,800 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:22:16,800 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:22:16,803 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=52682&clusters=DEFAULT, body: {}
+2022-10-02 16:22:16,803 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=52682&clusters=DEFAULT, body: {}
+2022-10-02 16:22:16,933 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 20.402 seconds (JVM running for 23.681)
+2022-10-02 16:22:16,933 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 20.402 seconds (JVM running for 23.681)
+2022-10-02 16:22:16,940 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:22:16,940 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:22:16,942 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:22:16,942 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:22:16,944 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:22:16,944 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:22:16,945 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:22:16,945 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:22:16,947 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:22:16,947 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:22:16,948 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:22:16,948 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:22:16,950 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:22:16,950 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:22:16,951 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:22:16,951 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:22:16,953 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:22:16,953 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:22:16,954 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@235e5e62]
+2022-10-02 16:22:16,954 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@235e5e62]
+2022-10-02 16:22:16,964 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:22:16,964 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:22:16,964 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@235e5e62]
+2022-10-02 16:22:16,964 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@235e5e62]
+2022-10-02 16:22:16,970 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:22:16,970 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:22:16,971 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@235e5e62]
+2022-10-02 16:22:16,971 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@235e5e62]
+2022-10-02 16:22:17,915 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=52682&clusters=DEFAULT, body: {}
+2022-10-02 16:22:17,915 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=52682&clusters=DEFAULT, body: {}
+2022-10-02 16:22:18,049 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:22:18,049 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:22:18,050 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:22:18,050 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:22:18,051 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:22:18,051 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:22:18,052 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:22:18,052 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:22:18,351 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:22:18,351 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:22:18,393 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-api]:  pingIntervalSeconds set to 30
+2022-10-02 16:22:18,393 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-api]:  pingIntervalSeconds set to 30
+2022-10-02 16:22:18,394 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-api]: maxTotalPingTime set to 2
+2022-10-02 16:22:18,394 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-api]: maxTotalPingTime set to 2
+2022-10-02 16:22:18,400 INFO [main][BaseLoadBalancer.java:197] - Client: content-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:22:18,400 INFO [main][BaseLoadBalancer.java:197] - Client: content-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:22:18,409 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:22:18,409 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:22:18,416 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:22:18,416 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:22:18,417 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=52682&clusters=, body: {}
+2022-10-02 16:22:18,417 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=52682&clusters=, body: {}
+2022-10-02 16:22:18,444 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2022-10-02 16:22:18,447 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2b07d129 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@25b20860
+2022-10-02 16:22:18,444 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2022-10-02 16:22:18,447 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2b07d129 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@25b20860
+2022-10-02 16:22:18,463 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2022-10-02 16:22:18,463 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2022-10-02 16:22:18,467 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:22:18,467 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:22:18,468 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:22:18,468 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:22:18,468 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2022-10-02 16:22:18,468 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2022-10-02 16:22:18,469 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [192.168.85.1:63040]
+2022-10-02 16:22:18,469 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [192.168.85.1:63040]
+2022-10-02 16:22:18,483 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.85.1:63040]}
+2022-10-02 16:22:18,483 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.85.1:63040]}
+2022-10-02 16:22:18,487 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:22:18,487 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:22:18,488 DEBUG [main][BaseLoadBalancer.java:147] - LoadBalancer [content-api_unknown]:  initialized
+2022-10-02 16:22:18,488 DEBUG [main][BaseLoadBalancer.java:147] - LoadBalancer [content-api_unknown]:  initialized
+2022-10-02 16:22:18,490 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2022-10-02 16:22:18,490 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2022-10-02 16:22:18,491 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [192.168.85.1:63040]
+2022-10-02 16:22:18,491 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [192.168.85.1:63040]
+2022-10-02 16:22:18,497 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[192.168.85.1:63040],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.85.1:63040;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4113d9ab
+2022-10-02 16:22:18,497 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[192.168.85.1:63040],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.85.1:63040;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4113d9ab
+2022-10-02 16:22:18,695 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:22:18,695 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:22:18,707 DEBUG [main][LoadBalancerContext.java:492] - content-api using LB returned Server: 192.168.85.1:63040 for request http:///r/coursepublish/2
+2022-10-02 16:22:18,707 DEBUG [main][LoadBalancerContext.java:492] - content-api using LB returned Server: 192.168.85.1:63040 for request http:///r/coursepublish/2
+2022-10-02 16:22:18,817 INFO [Thread-21][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:22:18,817 INFO [Thread-21][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:22:18,818 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:22:18,818 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:22:18,819 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:22:18,819 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:22:18,819 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:22:18,819 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:22:18,819 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:22:18,819 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:22:18,820 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:22:18,820 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:22:18,846 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:22:18,846 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:22:18,847 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:22:18,847 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:22:18,847 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:22:18,847 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:22:19,466 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=52682&clusters=, body: {}
+2022-10-02 16:22:19,466 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=52682&clusters=, body: {}
+2022-10-02 16:22:19,922 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=52682&clusters=DEFAULT, body: {}
+2022-10-02 16:22:19,922 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=52682&clusters=DEFAULT, body: {}
+2022-10-02 16:22:19,925 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:22:19,925 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:22:21,790 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:22:21,790 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:22:22,927 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:22:22,927 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:22:22,927 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:22:22,927 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:22:25,933 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:22:25,933 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:22:25,933 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:22:25,933 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:22:25,934 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:22:25,934 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:22:25,935 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:22:25,935 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:22:25,936 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:22:25,936 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:22:25,937 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:22:25,937 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:22:25,938 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:22:25,938 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:22:25,938 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:22:25,938 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:23:15,033 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:23:15,033 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:23:16,006 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:23:16,006 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:23:16,217 INFO [main][GenericScope.java:295] - BeanFactory id=97097de5-95ac-3bdb-a24f-d230affd0b91
+2022-10-02 16:23:16,217 INFO [main][GenericScope.java:295] - BeanFactory id=97097de5-95ac-3bdb-a24f-d230affd0b91
+2022-10-02 16:23:16,307 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:23:16,307 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:23:16,929 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:23:16,929 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:23:17,205 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@11bfffb3'
+2022-10-02 16:23:17,205 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@11bfffb3'
+2022-10-02 16:23:17,212 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:23:17,212 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:23:18,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:23:18,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:23:18,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:23:18,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:23:18,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:23:18,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:23:18,685 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:23:18,685 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:23:18,689 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:23:18,689 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:23:18,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:23:18,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:23:18,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:23:18,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:23:18,714 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:23:18,714 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:23:18,717 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:23:18,717 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:23:18,720 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:23:18,720 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:23:18,725 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:23:18,725 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:23:18,730 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:23:18,730 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:23:18,735 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:23:18,735 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:23:18,743 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:23:18,743 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:23:18,749 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:23:18,749 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:23:18,753 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:23:18,753 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:23:18,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:23:18,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:23:18,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:23:18,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:23:18,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:23:18,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:23:18,798 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:23:18,798 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:23:18,801 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:23:18,801 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:23:18,805 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:23:18,805 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:23:18,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:23:18,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:23:18,813 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:23:18,813 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:23:18,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:23:18,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:23:18,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:23:18,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:23:18,821 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:23:18,821 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:23:18,825 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:23:18,825 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:23:18,830 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:23:18,830 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:23:18,833 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:23:18,833 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:23:18,838 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:23:18,838 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:23:18,841 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:23:18,841 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:23:18,846 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:23:18,846 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:23:18,849 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:23:18,849 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:23:18,899 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:23:18,899 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:23:18,900 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:23:18,900 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:23:18,917 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:23:18,917 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:23:18,917 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:23:18,917 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:23:21,463 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:23:21,463 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:23:21,476 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:23:21,476 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:23:22,903 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:23:22,903 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:23:22,923 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:23:22,923 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:23:22,924 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:23:22,924 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:23:22,926 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:23:22,926 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:23:22,929 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:23:22,929 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:23:22,930 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:23:22,930 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:23:22,930 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:23:22,930 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:23:22,931 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:23:22,931 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:23:22,932 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:23:22,932 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:23:22,934 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:23:22,934 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:23:22,938 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:23:22,938 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:23:22,939 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:23:22,939 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:23:22,940 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:23:22,940 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:23:22,940 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:23:22,940 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:23:22,940 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:23:22,940 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:23:22,941 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:23:22,941 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:23:23,249 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:23:23,249 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:23:25,974 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:23:25,974 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:23:26,303 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:23:26,303 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:23:26,304 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:23:26,304 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:23:26,305 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:23:26,305 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:23:26,312 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:23:26,312 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:23:26,313 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:23:26,313 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:23:26,320 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:23:26,320 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:23:26,332 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:23:26,332 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:23:26,336 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=60226&clusters=DEFAULT, body: {}
+2022-10-02 16:23:26,336 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=60226&clusters=DEFAULT, body: {}
+2022-10-02 16:23:26,496 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 18.388 seconds (JVM running for 21.721)
+2022-10-02 16:23:26,496 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 18.388 seconds (JVM running for 21.721)
+2022-10-02 16:23:26,502 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:23:26,502 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:23:26,504 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:23:26,504 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:23:26,507 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:23:26,507 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:23:26,508 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:23:26,508 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:23:26,511 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:23:26,512 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e69404]
+2022-10-02 16:23:26,512 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:23:26,513 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:23:26,511 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:23:26,512 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e69404]
+2022-10-02 16:23:26,512 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:23:26,513 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:23:26,519 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:23:26,519 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:23:26,520 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:23:26,520 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:23:26,529 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:23:26,532 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e69404]
+2022-10-02 16:23:26,529 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:23:26,532 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e69404]
+2022-10-02 16:23:26,539 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:23:26,540 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e69404]
+2022-10-02 16:23:26,539 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:23:26,540 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e69404]
+2022-10-02 16:23:27,483 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=60226&clusters=DEFAULT, body: {}
+2022-10-02 16:23:27,483 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=60226&clusters=DEFAULT, body: {}
+2022-10-02 16:23:27,859 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:23:27,859 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:23:27,860 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:23:27,860 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:23:27,861 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:23:27,861 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:23:27,862 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:23:27,862 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:23:27,923 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:23:27,923 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:23:28,183 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-api]:  pingIntervalSeconds set to 30
+2022-10-02 16:23:28,183 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-api]:  pingIntervalSeconds set to 30
+2022-10-02 16:23:28,184 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-api]: maxTotalPingTime set to 2
+2022-10-02 16:23:28,184 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-api]: maxTotalPingTime set to 2
+2022-10-02 16:23:28,190 INFO [main][BaseLoadBalancer.java:197] - Client: content-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:23:28,190 INFO [main][BaseLoadBalancer.java:197] - Client: content-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:23:28,199 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:23:28,199 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:23:28,207 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:23:28,207 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:23:28,208 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=60226&clusters=, body: {}
+2022-10-02 16:23:28,208 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=60226&clusters=, body: {}
+2022-10-02 16:23:28,239 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-10-02 16:23:28,239 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-10-02 16:23:28,241 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@586c9a81 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1c0680b0
+2022-10-02 16:23:28,241 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@586c9a81 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1c0680b0
+2022-10-02 16:23:28,250 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-10-02 16:23:28,250 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-10-02 16:23:28,253 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:23:28,253 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:23:28,254 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:23:28,254 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:23:28,255 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2022-10-02 16:23:28,255 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2022-10-02 16:23:28,256 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [192.168.85.1:63040]
+2022-10-02 16:23:28,256 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [192.168.85.1:63040]
+2022-10-02 16:23:28,270 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.85.1:63040]}
+2022-10-02 16:23:28,270 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.85.1:63040]}
+2022-10-02 16:23:28,273 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:23:28,273 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:23:28,274 DEBUG [main][BaseLoadBalancer.java:147] - LoadBalancer [content-api_unknown]:  initialized
+2022-10-02 16:23:28,274 DEBUG [main][BaseLoadBalancer.java:147] - LoadBalancer [content-api_unknown]:  initialized
+2022-10-02 16:23:28,276 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2022-10-02 16:23:28,276 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2022-10-02 16:23:28,277 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [192.168.85.1:63040]
+2022-10-02 16:23:28,277 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [192.168.85.1:63040]
+2022-10-02 16:23:28,287 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[192.168.85.1:63040],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.85.1:63040;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@251e2f4a
+2022-10-02 16:23:28,287 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[192.168.85.1:63040],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.85.1:63040;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@251e2f4a
+2022-10-02 16:23:28,465 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:23:28,465 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:23:28,483 DEBUG [main][LoadBalancerContext.java:492] - content-api using LB returned Server: 192.168.85.1:63040 for request http:///content/r/coursepublish/2
+2022-10-02 16:23:28,483 DEBUG [main][LoadBalancerContext.java:492] - content-api using LB returned Server: 192.168.85.1:63040 for request http:///content/r/coursepublish/2
+2022-10-02 16:23:28,662 INFO [Thread-21][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:23:28,662 INFO [Thread-21][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:23:28,663 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:23:28,663 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:23:28,663 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:23:28,663 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:23:28,664 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:23:28,664 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:23:28,665 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:23:28,665 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:23:28,667 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:23:28,667 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:23:28,704 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:23:28,705 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:23:28,704 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:23:28,705 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:23:28,705 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:23:28,705 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:23:29,252 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=60226&clusters=, body: {}
+2022-10-02 16:23:29,252 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=60226&clusters=, body: {}
+2022-10-02 16:23:29,490 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=60226&clusters=DEFAULT, body: {}
+2022-10-02 16:23:29,490 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=60226&clusters=DEFAULT, body: {}
+2022-10-02 16:23:29,494 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:23:29,494 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:23:31,321 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:23:31,321 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:23:32,497 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:23:32,497 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:23:32,497 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:23:32,497 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:23:35,500 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:23:35,500 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:23:35,500 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:23:35,500 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:23:35,500 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:23:35,500 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:23:35,501 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:23:35,501 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:23:35,501 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:23:35,501 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:23:35,501 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:23:35,501 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:23:35,502 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:23:35,502 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:23:35,502 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:23:35,502 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:34:39,659 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:34:39,659 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2022-10-02 16:34:40,547 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:34:40,547 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-10-02 16:34:40,739 INFO [main][GenericScope.java:295] - BeanFactory id=cc5de39f-2e91-3c4c-a7c8-505d3f50f5f2
+2022-10-02 16:34:40,739 INFO [main][GenericScope.java:295] - BeanFactory id=cc5de39f-2e91-3c4c-a7c8-505d3f50f5f2
+2022-10-02 16:34:40,840 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:34:40,840 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'ContentServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-02 16:34:41,423 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:34:41,423 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-10-02 16:34:41,618 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@443faa85'
+2022-10-02 16:34:41,618 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@443faa85'
+2022-10-02 16:34:41,621 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:34:41,621 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-10-02 16:34:42,817 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:34:42,817 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.insert
+2022-10-02 16:34:42,822 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:34:42,822 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.delete
+2022-10-02 16:34:42,827 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:34:42,827 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteByMap
+2022-10-02 16:34:42,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:34:42,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteById
+2022-10-02 16:34:42,871 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:34:42,871 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.deleteBatchIds
+2022-10-02 16:34:42,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:34:42,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.update
+2022-10-02 16:34:42,879 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:34:42,879 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.updateById
+2022-10-02 16:34:42,880 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:34:42,880 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectById
+2022-10-02 16:34:42,882 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:34:42,882 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectBatchIds
+2022-10-02 16:34:42,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:34:42,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectByMap
+2022-10-02 16:34:42,888 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:34:42,888 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectOne
+2022-10-02 16:34:42,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:34:42,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectCount
+2022-10-02 16:34:42,895 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:34:42,895 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMaps
+2022-10-02 16:34:42,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:34:42,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectMapsPage
+2022-10-02 16:34:42,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:34:42,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectObjs
+2022-10-02 16:34:42,907 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:34:42,907 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectList
+2022-10-02 16:34:42,910 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:34:42,910 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcChooseCourseMapper.selectPage
+2022-10-02 16:34:42,936 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:34:42,936 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.insert
+2022-10-02 16:34:42,941 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:34:42,941 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.delete
+2022-10-02 16:34:42,945 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:34:42,945 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteByMap
+2022-10-02 16:34:42,948 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:34:42,948 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteById
+2022-10-02 16:34:42,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:34:42,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.deleteBatchIds
+2022-10-02 16:34:42,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:34:42,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.update
+2022-10-02 16:34:42,959 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:34:42,959 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.updateById
+2022-10-02 16:34:42,961 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:34:42,961 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectById
+2022-10-02 16:34:42,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:34:42,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectBatchIds
+2022-10-02 16:34:42,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:34:42,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectByMap
+2022-10-02 16:34:42,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:34:42,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectOne
+2022-10-02 16:34:42,973 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:34:42,973 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectCount
+2022-10-02 16:34:42,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:34:42,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMaps
+2022-10-02 16:34:42,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:34:42,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectMapsPage
+2022-10-02 16:34:42,983 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:34:42,983 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectObjs
+2022-10-02 16:34:42,988 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:34:42,988 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectList
+2022-10-02 16:34:42,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:34:42,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: XcCourseTablesMapper.selectPage
+2022-10-02 16:34:43,041 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-10-02 16:34:43,041 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-10-02 16:34:43,043 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-10-02 16:34:43,043 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-10-02 16:34:43,046 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-02 16:34:43,046 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-02 16:34:43,048 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-10-02 16:34:43,048 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-10-02 16:34:43,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-02 16:34:43,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-02 16:34:43,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-10-02 16:34:43,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-10-02 16:34:43,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-10-02 16:34:43,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-10-02 16:34:43,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-10-02 16:34:43,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-10-02 16:34:43,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-02 16:34:43,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-02 16:34:43,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-02 16:34:43,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-02 16:34:43,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-10-02 16:34:43,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-10-02 16:34:43,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-10-02 16:34:43,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-10-02 16:34:43,072 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-02 16:34:43,072 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-02 16:34:43,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-02 16:34:43,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-02 16:34:43,078 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-02 16:34:43,078 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-02 16:34:43,080 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-10-02 16:34:43,080 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-10-02 16:34:43,083 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-10-02 16:34:43,083 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-10-02 16:34:43,168 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-10-02 16:34:43,168 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-10-02 16:34:43,175 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-10-02 16:34:43,175 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-10-02 16:34:43,178 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-10-02 16:34:43,178 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-10-02 16:34:43,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-10-02 16:34:43,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-10-02 16:34:43,186 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-10-02 16:34:43,186 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-10-02 16:34:43,190 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-10-02 16:34:43,190 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-10-02 16:34:43,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-10-02 16:34:43,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-10-02 16:34:43,197 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-10-02 16:34:43,197 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-10-02 16:34:43,197 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-10-02 16:34:43,197 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-10-02 16:34:43,200 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-10-02 16:34:43,200 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-10-02 16:34:43,204 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-10-02 16:34:43,204 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-10-02 16:34:43,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-10-02 16:34:43,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-10-02 16:34:43,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-10-02 16:34:43,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-10-02 16:34:43,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-10-02 16:34:43,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-10-02 16:34:43,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-10-02 16:34:43,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-10-02 16:34:43,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-10-02 16:34:43,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-10-02 16:34:43,228 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-10-02 16:34:43,228 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-10-02 16:34:43,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-10-02 16:34:43,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-10-02 16:34:43,410 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:34:43,410 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:34:43,411 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:34:43,411 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:34:43,426 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:34:43,426 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2022-10-02 16:34:43,427 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:34:43,427 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-02 16:34:45,710 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:34:45,710 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:34:45,722 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:34:45,722 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:34:46,739 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:34:46,739 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2022-10-02 16:34:46,758 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:34:46,758 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-10-02 16:34:46,760 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:34:46,760 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-10-02 16:34:46,762 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:34:46,762 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-10-02 16:34:46,765 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:34:46,765 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-10-02 16:34:46,767 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:34:46,767 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2022-10-02 16:34:46,767 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:34:46,767 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2022-10-02 16:34:46,769 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:34:46,769 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-10-02 16:34:46,770 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:34:46,770 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-10-02 16:34:46,772 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:34:46,772 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-10-02 16:34:46,776 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:34:46,776 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-10-02 16:34:46,777 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:34:46,777 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-10-02 16:34:46,777 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:34:46,777 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-10-02 16:34:46,778 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:34:46,778 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-10-02 16:34:46,778 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:34:46,778 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-10-02 16:34:46,779 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:34:46,779 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-10-02 16:34:47,113 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:34:47,113 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-10-02 16:34:50,287 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:34:50,287 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2022-10-02 16:34:50,553 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:34:50,553 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2022-10-02 16:34:50,554 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:34:50,554 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2022-10-02 16:34:50,555 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:34:50,555 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2022-10-02 16:34:50,560 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:34:50,560 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:34:50,560 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:34:50,560 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2022-10-02 16:34:50,565 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:34:50,565 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:34:50,576 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:34:50,576 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:34:50,579 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62372&clusters=DEFAULT, body: {}
+2022-10-02 16:34:50,579 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62372&clusters=DEFAULT, body: {}
+2022-10-02 16:34:50,677 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.519 seconds (JVM running for 20.324)
+2022-10-02 16:34:50,677 INFO [main][StartupInfoLogger.java:61] - Started Test1 in 17.519 seconds (JVM running for 20.324)
+2022-10-02 16:34:50,681 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:34:50,681 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service.yaml+xuecheng-plus-project+dev
+2022-10-02 16:34:50,683 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:34:50,683 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:34:50,684 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:34:50,684 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service+xuecheng-plus-project+dev
+2022-10-02 16:34:50,684 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:34:50,684 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:34:50,686 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:34:50,686 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] learning-service-dev.yaml+xuecheng-plus-project+dev
+2022-10-02 16:34:50,687 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:34:50,687 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=learning-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2022-10-02 16:34:50,689 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:34:50,689 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2022-10-02 16:34:50,690 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:34:50,690 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2022-10-02 16:34:50,694 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:34:50,694 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:34:50,694 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@76591828]
+2022-10-02 16:34:50,694 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@76591828]
+2022-10-02 16:34:50,703 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:34:50,703 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=learning-service-dev.yamlxuecheng-plus-project51ba6ac478bf1f29ba6177df195fa836devlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devlearning-servicexuecheng-plus-projectdevlearning-service.yamlxuecheng-plus-projectdev, tenant=dev}
+2022-10-02 16:34:50,704 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@76591828]
+2022-10-02 16:34:50,704 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@76591828]
+2022-10-02 16:34:51,691 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62372&clusters=DEFAULT, body: {}
+2022-10-02 16:34:51,691 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62372&clusters=DEFAULT, body: {}
+2022-10-02 16:34:51,718 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:34:51,718 DEBUG [main][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+2022-10-02 16:34:51,719 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:34:51,719 DEBUG [main][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+2022-10-02 16:34:51,720 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:34:51,720 DEBUG [main][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+2022-10-02 16:34:51,721 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:34:51,721 DEBUG [main][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+2022-10-02 16:34:51,765 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:34:51,765 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:34:51,784 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-api]:  pingIntervalSeconds set to 30
+2022-10-02 16:34:51,784 DEBUG [main][BaseLoadBalancer.java:338] - LoadBalancer [content-api]:  pingIntervalSeconds set to 30
+2022-10-02 16:34:51,785 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-api]: maxTotalPingTime set to 2
+2022-10-02 16:34:51,785 DEBUG [main][BaseLoadBalancer.java:356] - LoadBalancer [content-api]: maxTotalPingTime set to 2
+2022-10-02 16:34:51,788 INFO [main][BaseLoadBalancer.java:197] - Client: content-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:34:51,788 INFO [main][BaseLoadBalancer.java:197] - Client: content-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-10-02 16:34:51,793 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:34:51,793 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2022-10-02 16:34:51,797 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:34:51,797 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2022-10-02 16:34:51,798 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=62372&clusters=, body: {}
+2022-10-02 16:34:51,798 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=62372&clusters=, body: {}
+2022-10-02 16:34:51,813 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-10-02 16:34:51,813 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-10-02 16:34:51,814 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@64db1d68 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@34edd065
+2022-10-02 16:34:51,814 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@64db1d68 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@34edd065
+2022-10-02 16:34:51,819 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-10-02 16:34:51,819 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.85.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.85.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-10-02 16:34:51,823 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:34:51,823 DEBUG [main][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:34:51,824 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:34:51,824 DEBUG [main][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [192.168.85.1:63040]
+2022-10-02 16:34:51,824 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2022-10-02 16:34:51,824 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2022-10-02 16:34:51,824 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [192.168.85.1:63040]
+2022-10-02 16:34:51,824 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [192.168.85.1:63040]
+2022-10-02 16:34:51,832 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.85.1:63040]}
+2022-10-02 16:34:51,832 DEBUG [main][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.85.1:63040]}
+2022-10-02 16:34:51,833 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:34:51,833 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: content-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-10-02 16:34:51,834 DEBUG [main][BaseLoadBalancer.java:147] - LoadBalancer [content-api_unknown]:  initialized
+2022-10-02 16:34:51,834 DEBUG [main][BaseLoadBalancer.java:147] - LoadBalancer [content-api_unknown]:  initialized
+2022-10-02 16:34:51,835 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2022-10-02 16:34:51,835 DEBUG [main][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2022-10-02 16:34:51,835 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [192.168.85.1:63040]
+2022-10-02 16:34:51,835 DEBUG [main][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [192.168.85.1:63040]
+2022-10-02 16:34:51,837 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[192.168.85.1:63040],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.85.1:63040;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@37e55819
+2022-10-02 16:34:51,837 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client content-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=content-api,current list of Servers=[192.168.85.1:63040],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.85.1:63040;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@37e55819
+2022-10-02 16:34:51,911 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:34:51,911 DEBUG [main][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+2022-10-02 16:34:51,921 DEBUG [main][LoadBalancerContext.java:492] - content-api using LB returned Server: 192.168.85.1:63040 for request http:///content/r/coursepublish/2
+2022-10-02 16:34:51,921 DEBUG [main][LoadBalancerContext.java:492] - content-api using LB returned Server: 192.168.85.1:63040 for request http:///content/r/coursepublish/2
+2022-10-02 16:34:52,015 INFO [Thread-20][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:34:52,016 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:34:52,015 INFO [Thread-20][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2022-10-02 16:34:52,016 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-02 16:34:52,016 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:34:52,016 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2022-10-02 16:34:52,018 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:34:52,018 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2022-10-02 16:34:52,018 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:34:52,018 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2022-10-02 16:34:52,019 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:34:52,019 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-02 16:34:52,039 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:34:52,039 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-10-02 16:34:52,039 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:34:52,039 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-10-02 16:34:52,039 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:34:52,039 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-10-02 16:34:52,821 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=62372&clusters=, body: {}
+2022-10-02 16:34:52,821 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40content-api&udpPort=62372&clusters=, body: {}
+2022-10-02 16:34:53,699 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62372&clusters=DEFAULT, body: {}
+2022-10-02 16:34:53,699 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.1.102&serviceName=xuecheng-plus-project%40%40learning-service&udpPort=62372&clusters=DEFAULT, body: {}
+2022-10-02 16:34:53,702 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:34:53,702 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-10-02 16:34:55,567 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:34:55,567 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2022-10-02 16:34:56,703 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:34:56,703 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-10-02 16:34:56,704 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:34:56,704 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-10-02 16:34:59,705 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:34:59,705 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-10-02 16:34:59,705 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:34:59,705 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-10-02 16:34:59,705 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:34:59,705 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-10-02 16:34:59,706 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:34:59,706 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-10-02 16:34:59,706 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:34:59,706 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2022-10-02 16:34:59,706 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:34:59,706 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2022-10-02 16:34:59,706 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:34:59,706 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2022-10-02 16:34:59,706 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-10-02 16:34:59,706 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
