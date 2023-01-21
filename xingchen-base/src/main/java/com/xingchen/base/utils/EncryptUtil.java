@@ -9,6 +9,9 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.Base64;
 
+/**
+ * @author xing'chen
+ */
 public class EncryptUtil {
     private static final Logger logger = LoggerFactory.getLogger(EncryptUtil.class);
 
@@ -77,7 +80,7 @@ public class EncryptUtil {
         String url = "== wo";
         String urlEncoded = EncryptUtil.encodeURL(url);
         String urlDecoded = EncryptUtil.decodeURL(urlEncoded);
-        
+
         System.out.println(url);
         System.out.println(urlEncoded);
         System.out.println(urlDecoded);

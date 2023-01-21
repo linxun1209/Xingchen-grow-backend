@@ -1,7 +1,7 @@
 #微服务配置
 spring:
   application:
-    name: learning-api
+    name: orders-api
   cloud:
     nacos:
       server-addr: localhost:8848
@@ -9,19 +9,16 @@ spring:
         namespace: dev
         group: Xingchen-grow-backend
       config:
-        namespace: ${spring.profiles.active}
+        namespace: dev
         group: Xingchen-grow-backend
         file-extension: yaml
         refresh-enabled: true
         extension-configs:
-          - data-id: learning-service-${spring.profiles.active}.yaml
+          - data-id: orders-service-${spring.profiles.active}.yaml
             group: Xingchen-grow-backend
             refresh: true
         shared-configs:
           - data-id: swagger-${spring.profiles.active}.yaml
-            group: xingchen-comment
-            refresh: true
-          - data-id: feign-${spring.profiles.active}.yaml
             group: xingchen-comment
             refresh: true
           - data-id: rabbitmq-${spring.profiles.active}.yaml
@@ -29,4 +26,3 @@ spring:
             refresh: true
   profiles:
     active: dev
-

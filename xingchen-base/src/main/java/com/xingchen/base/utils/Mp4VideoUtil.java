@@ -6,9 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Mp4VideoUtil extends VideoUtil {
-    //ffmpeg的安装位置
 
-    String ffmpeg_path = "E:\\ffmpeg\\ffmpeg.exe";
+    String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
     String video_path = "D:\\BaiduNetdiskDownload\\test1.avi";
     String mp4_name = "test1.mp4";
     String mp4folder_path = "D:/BaiduNetdiskDownload/Movies/test1/";
@@ -46,8 +45,7 @@ public class Mp4VideoUtil extends VideoUtil {
         commend.add(video_path);
         commend.add("-c:v");
         commend.add("libx264");
-        //覆盖输出文件
-        commend.add("-y");
+        commend.add("-y");//覆盖输出文件
         commend.add("-s");
         commend.add("1280x720");
         commend.add("-pix_fmt");

@@ -107,15 +107,14 @@ public class DateUtil {
      */
     public static Date format(String strDate, String format) {
         Date d = null;
-        if (null == strDate || "".equals(strDate)) {
+        if (null == strDate || "".equals(strDate))
             return null;
-        } else {
+        else
             try {
                 d = getFormatter(format).parse(strDate);
             } catch (ParseException pex) {
                 return null;
             }
-        }
         return d;
     }
 
@@ -190,9 +189,8 @@ public class DateUtil {
         }
         List<String> rs = new ArrayList<String>();
         List<Date> tmplist = getSpecifyDaysOfMonth(begin, end);
-        for (Date date : tmplist) {
+        for (Date date : tmplist)
             rs.add(df.format(date));
-        }
         return rs;
     }
 
@@ -426,17 +424,17 @@ public class DateUtil {
 
     public static final int getYear() {
         Calendar cal = Calendar.getInstance();
-        return cal.get(Calendar.YEAR);
+        return cal.get(cal.YEAR);
     }
 
     public static final int getMonth() {
         Calendar cal = Calendar.getInstance();
-        return cal.get(Calendar.MONTH) + 1;
+        return cal.get(cal.MONTH) + 1;
     }
 
     public static final int getDay() {
         Calendar cal = Calendar.getInstance();
-        return cal.get(Calendar.DATE);
+        return cal.get(cal.DATE);
     }
 
     /**
